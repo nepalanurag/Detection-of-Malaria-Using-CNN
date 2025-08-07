@@ -44,8 +44,7 @@ if submit:
     if img is None:
         img_path = "sample.png" 
         # Convert the file to an opencv image.
-        file_bytes = np.asarray(bytearray(img.read()), dtype=np.uint8)
-        opencv_image = cv2.imdecode(file_bytes, 1)
+        opencv_image = cv2.imread(img_path)
 
 
 
@@ -66,4 +65,5 @@ if submit:
 
 
         st.title(str("The model predicts the blood smear is "+result ))
+
 
