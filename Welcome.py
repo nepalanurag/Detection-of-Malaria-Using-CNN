@@ -47,3 +47,8 @@ for i in range(3):
 
 # Add some padding to the bottom of the page
 st.markdown("<div style='height: 100px;'></div>", unsafe_allow_html=True)
+
+st.sidebar.title('Developers Contact')
+st.sidebar.markdown('[![Anurag Nepal]'
+                        '(https://img.shields.io/badge/Author-Anurag--Nepal-lightgrey)]'
+                        '(https://www.linkedin.com/in/anurag-nepal-1587a4191/)')
