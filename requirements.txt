@@ -1,0 +1,11 @@
+streamlit
+matplotlib
+numpy
+Pillow
+pandas
+keras
+reportlab
+opencv-python
+tensorflow-cpu
+plotly
+reportlab
