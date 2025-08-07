@@ -4,8 +4,10 @@ numpy
 Pillow
 pandas
 keras
-reportlab
 opencv-python
 tensorflow-cpu
 plotly
 reportlab
+scikit-learn
+seaborn
+tqdm
