@@ -11,3 +11,4 @@ reportlab
 scikit-learn
 seaborn
 tqdm
+opencv-python
