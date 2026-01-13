@@ -9,9 +9,9 @@ st.markdown("Upload an image of the blood smear")
 img=st.file_uploader("")
 submit = st.button('Predict')
 st.sidebar.title('Developers Contact')
-st.sidebar.markdown('[![Avishek Rijal]'
-                        '(https://img.shields.io/badge/Author-Avishek--Rijal-lightgrey)]'
-                        '(https://www.linkedin.com/in/avishek-rijal-0430801b1/)')
+st.sidebar.markdown('[![Anurag  Nepal]'
+                        '(https://img.shields.io/badge/Author-Anurag--Nepal-lightgrey)]'
+                        '(https://www.linkedin.com/in//)')
                         
 if submit:
 
@@ -38,5 +38,6 @@ if submit:
             result = "not infected"
         else:
             result = "Infected"
+
 
         st.title(str("The model predicts the blood smear is "+result ))
