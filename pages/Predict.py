@@ -6,7 +6,7 @@ import cv2
 from keras.models import load_model
 import tensorflow as tf
 import numpy as np
-model = load_model("my_model.h5")
+model = load_model("malaria_cnn.h5")
 st.markdown(
     f'<style>.reportview-container .main .block-container {{max-width: 800px;}}</style>',
     unsafe_allow_html=True,
