@@ -6,7 +6,7 @@ import cv2
 from keras.models import load_model
 import tensorflow as tf
 import numpy as np
-model = load_model("my_model.h5")
+model = load_model("malaria_cnn.h5")
 st.markdown(
     f'<style>.reportview-container .main .block-container {{max-width: 800px;}}</style>',
     unsafe_allow_html=True,
@@ -26,17 +26,17 @@ col1, col2 = st.columns(2)
 # Set form fields
 with col1:
     st.subheader("Name")
-    name = st.text_input("", value="Your Full Name")
+    name = st.text_input("")
 
     st.subheader("Age")
-    age = st.text_input("", value="Age")
+    age = st.text_input(" ")
 
 with col2:
     st.subheader("Location")
     location = st.selectbox("", ["", "Bangalore"])
 
     st.subheader("Phone Number")
-    no = st.text_input("", value="Phone No.")
+    no = st.text_input("+91🇮🇳")
 
 # Add image upload
 st.markdown("<h2 style='text-align: center;'>Upload an image of the blood smear</h2>", unsafe_allow_html=True)
@@ -72,9 +72,9 @@ if submit:
         st.image(opencv_image, channels="BGR")
         st.write(opencv_image.shape)
         #Resizing the image
-        opencv_image = cv2.resize(opencv_image, (50,50))
+        opencv_image = cv2.resize(opencv_image, (32,32))
         #Convert image to 4 Dimension
-        opencv_image.shape = (1,50,50,3)
+        opencv_image.shape = (1,32,32,3)
         #Make Prediction
         Y_pred = model.predict(opencv_image)
         print(Y_pred)
