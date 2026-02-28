@@ -66,6 +66,14 @@ The model is trained using Keras and TensorFlow, with performance evaluated on v
 - Visualization of results
 - Comprehensive project report (`reports.pdf`)
 
+## Screencapture
+
+A screencapture of the project result in action is available in the [report_run.pdf](./report_run.pdf) file. You can view or download it directly:
+
+- [View Screencapture PDF](./report_run.pdf)
+
+If your Markdown viewer does not support inline PDF viewing, you can download and open the file locally for a detailed walkthrough of the project interface and results.
+
 ## Usage Examples
 
 **Predict malaria from an image:**
