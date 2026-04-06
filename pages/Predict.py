@@ -36,7 +36,7 @@ with col2:
     location = st.selectbox("", ["", "Bangalore"])
 
     st.subheader("Phone Number")
-    no = st.text_input(" ")
+    no = st.text_input("  ")
 
 # Add image upload
 st.markdown("<h2 style='text-align: center;'>Upload an image of the blood smear Or Just press Predict if you want to view a sample diagnosis.</h2>", unsafe_allow_html=True)
