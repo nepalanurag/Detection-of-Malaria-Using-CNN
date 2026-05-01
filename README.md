@@ -114,4 +114,4 @@ For questions or feedback, please open an issue or contact the repository mainta
 
 ## License
 
-This project is for educational and research purposes only. Please cite appropriately if you use this work in your research.
+This project was completed as a capstone project for educational and research purposes. Please cite appropriately if you use this work in your research.
