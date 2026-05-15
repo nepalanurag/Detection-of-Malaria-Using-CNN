@@ -1,0 +1,53 @@
+{
+  "samples": [
+    {
+      "file": "sample1.png",
+      "true_label": "parasitized",
+      "p_infected_mean": 0.9956,
+      "p_infected_sd": 0.0073,
+      "ci95": [
+        0.9814,
+        1.0
+      ],
+      "prediction": "infected",
+      "correct": true
+    },
+    {
+      "file": "sample2.png",
+      "true_label": "parasitized",
+      "p_infected_mean": 0.4369,
+      "p_infected_sd": 0.104,
+      "ci95": [
+        0.2331,
+        0.6407
+      ],
+      "prediction": "uninfected",
+      "correct": false
+    },
+    {
+      "file": "sample3.png",
+      "true_label": "uninfected",
+      "p_infected_mean": 0.9962,
+      "p_infected_sd": 0.0029,
+      "ci95": [
+        0.9904,
+        1.0
+      ],
+      "prediction": "infected",
+      "correct": false
+    },
+    {
+      "file": "sample4.png",
+      "true_label": "uninfected",
+      "p_infected_mean": 0.4621,
+      "p_infected_sd": 0.119,
+      "ci95": [
+        0.2288,
+        0.6954
+      ],
+      "prediction": "uninfected",
+      "correct": true
+    }
+  ],
+  "note": "Precomputed locally with the shipped my_model.onnx (RGB, /255, 8 TTA views: 4 rotations x {original, horizontal flip}). Interval is mean +/- 1.96*SD, same as the live demo computes. true_label from the NIH set folder."
+}

@@ -1,0 +1,4 @@
+{
+  "malaria_cnn": {"order": "rgb", "scale": 1.0, "pcol": 0},
+  "my_model": {"order": "rgb", "scale": 0.00392156862745098, "pcol": 0}
+}

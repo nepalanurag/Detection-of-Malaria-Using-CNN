@@ -1,0 +1,40 @@
+{
+  "summary": {
+    "brightness": {
+      "errors_mean": 0.44597917795181274,
+      "correct_mean": 0.469574898481369,
+      "errors_sd": 0.0501195527613163,
+      "correct_sd": 0.04736054688692093
+    },
+    "contrast": {
+      "errors_mean": 0.2924005091190338,
+      "correct_mean": 0.28999751806259155,
+      "errors_sd": 0.02508639544248581,
+      "correct_sd": 0.022322729229927063
+    },
+    "saturation": {
+      "errors_mean": 0.20048096776008606,
+      "correct_mean": 0.17325566709041595,
+      "errors_sd": 0.08482971042394638,
+      "correct_sd": 0.07893268764019012
+    },
+    "redness": {
+      "errors_mean": 0.2912558913230896,
+      "correct_mean": 0.29201048612594604,
+      "errors_sd": 0.03813224285840988,
+      "correct_sd": 0.03410981222987175
+    }
+  },
+  "n_errors": 1877,
+  "winner": "my_model",
+  "ece": 0.10321365437049355,
+  "tta": {
+    "n": 2000,
+    "mean_sd_all": 0.0550307104416216,
+    "mean_sd_correct": 0.05514172790867965,
+    "mean_sd_wrong": 0.05329143679104543,
+    "mean_width_all": 0.17653944727088208,
+    "mean_width_correct": 0.17496044399043015,
+    "mean_width_wrong": 0.2012771653312954
+  }
+}

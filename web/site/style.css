@@ -1,0 +1,60 @@
+/* Hand-made, utilitarian. No framework. */
+:root {
+  --ink: #1c1c1c;
+  --muted: #666;
+  --rule: #d8d8d8;
+  --accent: #8c2b2b;      /* deep red, blood-smear nod */
+  --good: #1f6b3a;
+  --paper: #fdfdfb;
+}
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  margin: 0;
+  line-height: 1.55;
+}
+header, main { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+header { padding-top: 36px; padding-bottom: 8px; border-bottom: 2px solid var(--ink); }
+h1 { font-size: 1.6rem; margin: 0 0 8px; letter-spacing: -0.01em; }
+h2 { font-size: 1.1rem; margin: 0 0 8px; }
+.lede { color: #333; max-width: 60ch; }
+.muted { color: var(--muted); }
+.small { font-size: 0.85rem; }
+main { padding-top: 24px; padding-bottom: 60px; }
+.panel {
+  border: 1px solid var(--rule);
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+}
+.dropzone {
+  border: 2px dashed var(--rule);
+  padding: 36px 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.dropzone:hover, .dropzone:focus { border-color: var(--accent); outline: none; }
+.dropzone p { margin: 6px 0; }
+.btnrow { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+button {
+  font: inherit;
+  padding: 6px 14px;
+  border: 1px solid var(--ink);
+  background: #fff;
+  cursor: pointer;
+}
+button:hover { background: #f0f0f0; }
+.resultgrid { display: flex; gap: 20px; align-items: flex-start; }
+#preview { border: 1px solid var(--rule); image-rendering: pixelated; width: 128px; height: 128px; }
+.verdict { font-size: 1.5rem; font-weight: 700; margin-bottom: 4px; }
+.verdict.infected { color: var(--accent); }
+.verdict.uninfected { color: var(--good); }
+.interval { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 0.95rem; }
+details { margin-top: 16px; }
+summary { cursor: pointer; font-weight: 600; }
+table { border-collapse: collapse; margin-top: 12px; font-size: 0.9rem; }
+th, td { border: 1px solid var(--rule); padding: 4px 12px; text-align: left; }
+td.num { font-family: ui-monospace, Menlo, monospace; }
+.about a { color: var(--accent); }

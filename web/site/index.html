@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Malaria cell classifier, running in your browser</title>
+<meta name="description" content="Upload a stained blood-cell image and get an infected/uninfected prediction with an uncertainty interval, computed entirely in your browser with ONNX Runtime Web.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Malaria cell classifier</h1>
+  <p class="lede">Upload a photo of a stained blood cell. A small convolutional neural network
+  predicts <strong>infected</strong> or <strong>uninfected</strong>, with a 95% interval from
+  test-time augmentation. Everything runs on your device. No image leaves your browser.</p>
+</header>
+
+<main>
+  <section class="panel">
+    <div id="dropzone" class="dropzone" tabindex="0" role="button" aria-label="Upload a cell image">
+      <p><strong>Drop an image here, or click to choose one.</strong></p>
+      <p class="muted">JPG or PNG of a single stained cell works best.</p>
+      <input type="file" id="fileinput" accept="image/*" hidden>
+    </div>
+    <div class="samples">
+      <span class="muted">Or try a sample cell:</span>
+      <div id="samplebuttons" class="btnrow"></div>
+    </div>
+  </section>
+
+  <section class="panel" id="result" hidden>
+    <div class="resultgrid">
+      <canvas id="preview" width="128" height="128"></canvas>
+      <div>
+        <div id="verdict" class="verdict">Loading model&hellip;</div>
+        <div id="interval" class="interval"></div>
+        <p class="muted small" id="truename" hidden></p>
+      </div>
+    </div>
+    <details>
+      <summary>How this number is computed</summary>
+      <p>The image is resized to 50&times;50 and shown to the model in 8 geometric views
+      (rotations and flips). The reported probability is the mean of the 8 outputs; the
+      interval is mean &plusmn; 1.96&times;SD of those 8 outputs. Wide intervals mean the
+      model is unsure about that cell.</p>
+      <table id="viewtable">
+        <thead><tr><th>View</th><th>P(infected)</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </details>
+  </section>
+
+  <section class="panel about">
+    <h2>About this model</h2>
+    <p id="modelinfo">A compact CNN trained on the NIH malaria cell image dataset
+    (27,558 thin-blood-smear cell images, half parasitized, half uninfected).
+    <span id="modelmetrics">On the full 27,558-image NIH set it reaches 93.2% accuracy
+    (95% CI 92.9&ndash;93.5), sensitivity 92.9%, specificity 93.5%, AUC 0.958.
+    Mean TTA spread across 8 views is &plusmn;0.055 in probability.</span> Full write-up,
+    code, and figures:
+    <a href="https://github.com/nepalanurag/malaria-cnn-web">github.com/nepalanurag/malaria-cnn-web</a>.</p>
+    <p class="muted small">Research demo, not a medical device. Predictions can be wrong;
+    see the error analysis in the repo before trusting it.</p>
+  </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/onnxruntime-web@1.17.0/dist/ort.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+# data and downloads (large, regenerated)
+data/
+*.zip
+*.npz
+*.log
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# venvs live outside the repo
+.venv*
+
+# OS
+.DS_Store
