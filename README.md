@@ -2,6 +2,12 @@
 
 This project leverages Convolutional Neural Networks (CNN) to automate the detection of malaria parasites in blood smear images. The goal is to assist healthcare professionals in rapid and accurate diagnosis, reducing manual workload and improving detection rates. The repository includes data preprocessing, model training, evaluation, prediction functionalities, visualizations, and a comprehensive project report.
 
+## Live demo
+
+Try it in your browser: https://malaria-cnn-web.vercel.app/
+
+The full demo package (evaluation, model conversion, and the site source) lives in [`web/`](web/).
+
 ## Background
 
 Malaria is a life-threatening disease caused by Plasmodium parasites, transmitted through the bites of infected mosquitoes. Early and accurate detection is crucial for effective treatment. Manual examination of blood smears is time-consuming and prone to human error. Deep learning, especially CNNs, has shown promise in automating image-based diagnosis tasks.
