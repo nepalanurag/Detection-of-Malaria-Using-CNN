@@ -36,12 +36,6 @@ The primary dataset consists of cell images labeled as infected or uninfected. A
    pip install -r requirements.txt
    ```
 
-   or use Pipenv:
-
-   ```bash
-   pipenv install
-   ```
-
 2. **Run prediction or analysis:**
 
    - Use scripts in the `pages/` directory, such as `Predict.py`, `Progression.py`, or `Visualization.py`.
