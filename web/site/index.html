@@ -50,6 +50,68 @@
     </details>
   </section>
 
+  <section class="panel">
+    <h2>About malaria</h2>
+    <p>Malaria is an acute febrile illness caused by Plasmodium parasites, which are spread
+    to people through the bites of infected female Anopheles mosquitoes. There are 5 parasite
+    species that cause malaria in humans, and 2 of these species, P.&nbsp;falciparum and
+    P.&nbsp;vivax, pose the greatest threat. P.&nbsp;falciparum is the deadliest malaria
+    parasite and the most prevalent on the African continent. P.&nbsp;vivax is the dominant
+    malaria parasite in most countries outside of sub-Saharan Africa.</p>
+    <h3>Symptoms</h3>
+    <ul class="symptoms">
+      <li>Fever</li>
+      <li>Chills</li>
+      <li>Headache</li>
+      <li>Sweats</li>
+      <li>Nausea</li>
+      <li>Vomiting</li>
+      <li>Body aches</li>
+      <li>Fatigue</li>
+      <li>Cough</li>
+    </ul>
+  </section>
+
+  <section class="panel">
+    <h2>How staging works</h2>
+    <p>When a cell is flagged as infected, the pipeline outlines the parasite with contour
+    detection and measures the ratio of parasite area to cell area. That ratio places the
+    infection in one of three stages:</p>
+    <table>
+      <thead><tr><th>Parasite-to-cell area ratio</th><th>Stage</th></tr></thead>
+      <tbody>
+        <tr><td class="num">7% and above</td><td>Advanced schizont stage</td></tr>
+        <tr><td class="num">2.5% to 7%</td><td>Trophozoite stage</td></tr>
+        <tr><td class="num">Below 2.5%</td><td>Initial ring stage</td></tr>
+      </tbody>
+    </table>
+    <p class="muted small">Methodology from the original analysis pipeline: contrast adjustment
+    and cleanup of the cell image, then OpenCV contour detection to outline the parasite and
+    measure its area against the cell.</p>
+  </section>
+
+  <section class="panel">
+    <h2>Malaria around the world</h2>
+    <p>Reported cases and deaths by country, 2000 to 2017.</p>
+    <div class="chartrow">
+      <label>Country
+        <select id="country"></select>
+      </label>
+      <label>Show
+        <select id="metric">
+          <option value="cases">No. of cases</option>
+          <option value="deaths">No. of deaths</option>
+        </select>
+      </label>
+    </div>
+    <canvas id="malchart" width="720" height="300"></canvas>
+    <h3>Countries with the most cases in <span id="top5year">2017</span></h3>
+    <input type="range" id="yearslider" min="2000" max="2017" value="2017" step="1"
+           aria-label="Choose a year">
+    <ol id="top5"></ol>
+    <p class="muted small">Source: World Health Organization.</p>
+  </section>
+
   <section class="panel about">
     <h2>About this model</h2>
     <p id="modelinfo">A compact CNN trained on the NIH malaria cell image dataset
@@ -58,7 +120,7 @@
     (95% CI 92.9&ndash;93.5), sensitivity 92.9%, specificity 93.5%, AUC 0.958.
     Mean TTA spread across 8 views is &plusmn;0.055 in probability.</span> Full write-up,
     code, and figures:
-    <a href="https://github.com/nepalanurag/malaria-cnn-web">github.com/nepalanurag/malaria-cnn-web</a>.</p>
+    <a href="https://github.com/nepalanurag/Detection-of-Malaria-Using-CNN">github.com/nepalanurag/Detection-of-Malaria-Using-CNN</a>.</p>
     <p class="muted small">Research demo, not a medical device. Predictions can be wrong;
     see the error analysis in the repo before trusting it.</p>
   </section>
