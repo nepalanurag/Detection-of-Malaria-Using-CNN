@@ -58,3 +58,18 @@ table { border-collapse: collapse; margin-top: 12px; font-size: 0.9rem; }
 th, td { border: 1px solid var(--rule); padding: 4px 12px; text-align: left; }
 td.num { font-family: ui-monospace, Menlo, monospace; }
 .about a { color: var(--accent); }
+
+/* Added sections: about malaria, staging, world chart. */
+h3 { font-size: 1rem; margin: 16px 0 8px; }
+.symptoms { list-style: none; padding: 0; columns: 3; column-gap: 24px; }
+.symptoms li { padding: 4px 0; border-bottom: 1px dotted var(--rule); break-inside: avoid; }
+.chartrow { display: flex; gap: 20px; flex-wrap: wrap; margin: 12px 0; align-items: center; }
+.chartrow label { font-size: 0.9rem; }
+select {
+  font: inherit; padding: 4px 8px; border: 1px solid var(--ink);
+  background: #fff; margin-left: 6px;
+}
+#malchart { width: 100%; height: 300px; border: 1px solid var(--rule); background: #fff; }
+input[type="range"] { width: 100%; margin: 8px 0; }
+#top5 { margin: 8px 0; padding-left: 24px; }
+#top5 li { margin-bottom: 4px; font-variant-numeric: tabular-nums; }
