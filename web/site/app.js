@@ -163,3 +163,120 @@ function init() {
 }
 
 init();
+
+/* Malaria around the world: WHO country data, hand-drawn canvas chart.
+   data.csv columns: index, Country, Year, No. of cases, No. of deaths, WHO Region. */
+(function () {
+  var chart = document.getElementById("malchart");
+  if (!chart) return;
+  var countrySel = document.getElementById("country");
+  var metricSel = document.getElementById("metric");
+  var yearSlider = document.getElementById("yearslider");
+  var top5year = document.getElementById("top5year");
+  var top5 = document.getElementById("top5");
+  var rows = [];
+
+  function fmtAxis(n) {
+    if (n >= 1e6) return (n / 1e6).toFixed(1) + "M";
+    if (n >= 1e3) return (n / 1e3).toFixed(1) + "k";
+    return String(Math.round(n));
+  }
+  function fmtFull(n) { return Math.round(n).toLocaleString("en-US"); }
+
+  function parseCSV(text) {
+    var out = [];
+    var lines = text.trim().split(/\r?\n/);
+    for (var i = 1; i < lines.length; i++) {
+      var p = lines[i].split(",");
+      if (p.length < 6) continue;
+      out.push({
+        country: p[1],
+        year: parseInt(p[2], 10),
+        cases: parseFloat(p[3]) || 0,
+        deaths: parseFloat(p[4]) || 0
+      });
+    }
+    return out;
+  }
+
+  function draw() {
+    var country = countrySel.value;
+    var metric = metricSel.value;
+    var pts = rows.filter(function (r) { return r.country === country; })
+                  .sort(function (a, b) { return a.year - b.year; });
+    var ctx = chart.getContext("2d");
+    var W = chart.width, H = chart.height;
+    ctx.clearRect(0, 0, W, H);
+    if (!pts.length) return;
+    var padL = 52, padR = 12, padT = 12, padB = 28;
+    var maxV = Math.max.apply(null, pts.map(function (p) { return p[metric]; }).concat([1]));
+    var minY = pts[0].year, maxY = pts[pts.length - 1].year;
+    function X(y) { return padL + ((y - minY) / Math.max(1, maxY - minY)) * (W - padL - padR); }
+    function Y(v) { return H - padB - (v / maxV) * (H - padT - padB); }
+    ctx.font = "11px sans-serif";
+    ctx.lineWidth = 1;
+    var g, v, yy;
+    for (g = 0; g <= 4; g++) {
+      v = (maxV * g) / 4; yy = Y(v);
+      ctx.strokeStyle = "#e5e5e5";
+      ctx.beginPath(); ctx.moveTo(padL, yy); ctx.lineTo(W - padR, yy); ctx.stroke();
+      ctx.fillStyle = "#666";
+      ctx.fillText(fmtAxis(v), 4, yy + 4);
+    }
+    ctx.fillStyle = "#666";
+    pts.forEach(function (p) {
+      if ((p.year - minY) % 3 === 0 || p.year === maxY)
+        ctx.fillText(String(p.year), X(p.year) - 12, H - 10);
+    });
+    ctx.strokeStyle = "#8c2b2b";
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    pts.forEach(function (p, i) {
+      var x = X(p.year), y = Y(p[metric]);
+      if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+    });
+    ctx.stroke();
+    ctx.fillStyle = "#8c2b2b";
+    pts.forEach(function (p) {
+      ctx.beginPath(); ctx.arc(X(p.year), Y(p[metric]), 3, 0, 6.3); ctx.fill();
+    });
+  }
+
+  function renderTop5() {
+    var yr = parseInt(yearSlider.value, 10);
+    top5year.textContent = yr;
+    var list = rows.filter(function (r) { return r.year === yr; })
+                   .sort(function (a, b) { return b.cases - a.cases; })
+                   .slice(0, 5);
+    top5.innerHTML = "";
+    list.forEach(function (r) {
+      var li = document.createElement("li");
+      li.textContent = r.country + ": " + fmtFull(r.cases) + " cases";
+      top5.appendChild(li);
+    });
+  }
+
+  fetch("data.csv").then(function (r) { return r.text(); }).then(function (t) {
+    rows = parseCSV(t);
+    var countries = [];
+    rows.forEach(function (r) { if (countries.indexOf(r.country) < 0) countries.push(r.country); });
+    countries.sort();
+    countries.forEach(function (c) {
+      var o = document.createElement("option");
+      o.value = c; o.textContent = c;
+      countrySel.appendChild(o);
+    });
+    // default: country with the most cases in the latest year
+    var maxYr = Math.max.apply(null, rows.map(function (r) { return r.year; }));
+    var top = rows.filter(function (r) { return r.year === maxYr; })
+                  .sort(function (a, b) { return b.cases - a.cases; })[0];
+    if (top) countrySel.value = top.country;
+    countrySel.addEventListener("change", draw);
+    metricSel.addEventListener("change", draw);
+    yearSlider.addEventListener("input", renderTop5);
+    draw();
+    renderTop5();
+  }).catch(function () {
+    chart.getContext("2d").fillText("Could not load data.csv", 20, 40);
+  });
+})();
