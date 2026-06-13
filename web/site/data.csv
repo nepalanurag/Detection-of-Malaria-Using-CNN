@@ -1,0 +1,1945 @@
+Country,Year,No. of cases,No. of deaths,WHO Region
+0,Afghanistan,2017,161778.0,10.0,Eastern Mediterranean
+1,Algeria,2017,0.0,0.0,Africa
+2,Angola,2017,3874892.0,13967.0,Africa
+3,Argentina,2017,0.0,1.0,Americas
+4,Armenia,2017,0.0,30.0,Europe
+5,Azerbaijan,2017,0.0,30.0,Europe
+6,Bangladesh,2017,4893.0,13.0,South-East Asia
+7,Belize,2017,7.0,0.0,Americas
+8,Benin,2017,1573163.0,2182.0,Africa
+9,Bhutan,2017,24.0,1.0,South-East Asia
+10,Bolivia (Plurinational State of),2017,4572.0,0.0,Americas
+11,Botswana,2017,1900.0,17.0,Africa
+12,Brazil,2017,189503.0,30.0,Americas
+13,Burkina Faso,2017,10225459.0,4144.0,Africa
+14,Burundi,2017,7670177.0,4414.0,Africa
+15,Cabo Verde,2017,423.0,2.0,Africa
+16,Cambodia,2017,36932.0,1.0,Western Pacific
+17,Cameroon,2017,1191257.0,3195.0,Africa
+18,Central African Republic,2017,383309.0,3689.0,Africa
+19,Chad,2017,1962372.0,2088.0,Africa
+20,China,2017,0.0,7.0,Western Pacific
+21,Colombia,2017,52805.0,19.0,Americas
+22,Comoros,2017,2274.0,3.0,Africa
+23,Congo,2017,127939.0,229.0,Americas
+24,Costa Rica,2017,12.0,0.0,Americas
+25,Côte d'Ivoire,2017,3274683.0,3222.0,Africa
+26,Democratic People's Republic of Korea,2017,4575.0,0.0,Western Pacific
+27,Democratic Republic of the Congo,2017,15176927.0,27458.0,Africa
+28,Djibouti,2017,14671.0,30.0,Eastern Mediterranean
+29,Dominican Republic,2017,341.0,1.0,Americas
+30,Ecuador,2017,1275.0,1.0,Americas
+31,Egypt,2017,0.0,30.0,Eastern Mediterranean
+32,El Salvador,2017,0.0,0.0,Americas
+33,Equatorial Guinea,2017,15725.0,30.0,Africa
+34,Eritrea,2017,31486.0,8.0,Africa
+35,Eswatini,2017,724.0,20.0,Africa
+36,Ethiopia,2017,1530739.0,356.0,Africa
+37,Gabon,2017,35244.0,218.0,Africa
+38,Gambia,2017,69931.0,54.0,Africa
+39,Georgia,2017,0.0,30.0,Europe
+40,Ghana,2017,4348694.0,599.0,Africa
+41,Guatemala,2017,3743.0,0.0,Americas
+42,Guinea,2017,1335323.0,1174.0,Africa
+43,Guinea-Bissau,2017,89784.0,296.0,Africa
+44,Guyana,2017,13936.0,11.0,Americas
+45,Haiti,2017,19135.0,12.0,Americas
+46,Honduras,2017,1277.0,1.0,Americas
+47,India,2017,844558.0,194.0,South-East Asia
+48,Indonesia,2017,261617.0,47.0,South-East Asia
+49,Iran (Islamic Republic of),2017,57.0,1.0,Eastern Mediterranean
+50,Iraq,2017,0.0,30.0,Eastern Mediterranean
+51,Kazakhstan,2017,0.0,30.0,Europe
+52,Kenya,2017,3215116.0,30.0,Africa
+53,Kyrgyzstan,2017,0.0,30.0,Europe
+54,Lao People's Democratic Republic,2017,9333.0,2.0,Western Pacific
+55,Liberia,2017,14792.0,758.0,Africa
+56,Madagascar,2017,800661.0,370.0,Africa
+57,Malawi,2017,4901344.0,3613.0,Africa
+58,Malaysia,2017,85.0,12.0,Western Pacific
+59,Mali,2017,1918376.0,1050.0,Africa
+60,Mauritania,2017,20105.0,67.0,Africa
+61,Mauritius,2017,0.0,30.0,Africa
+62,Mexico,2017,736.0,0.0,Americas
+63,Morocco,2017,0.0,30.0,Eastern Mediterranean
+64,Mozambique,2017,8921081.0,1114.0,Africa
+65,Myanmar,2017,19619.0,30.0,South-East Asia
+66,Namibia,2017,54268.0,104.0,Africa
+67,Nepal,2017,623.0,3.0,South-East Asia
+68,Nicaragua,2017,10949.0,30.0,Americas
+69,Niger,2017,2638580.0,2316.0,Africa
+70,Nigeria,2017,11571958.0,30.0,Africa
+71,Oman,2017,0.0,30.0,Eastern Mediterranean
+72,Pakistan,2017,350467.0,113.0,Eastern Mediterranean
+73,Panama,2017,649.0,0.0,Americas
+74,Papua New Guinea,2017,478340.0,273.0,Western Pacific
+75,Paraguay,2017,0.0,0.0,Americas
+76,Peru,2017,55367.0,10.0,Americas
+77,Philippines,2017,3950.0,4.0,Western Pacific
+78,Republic of Korea,2017,436.0,3.0,Western Pacific
+79,Rwanda,2017,1876123.0,376.0,Africa
+80,Sao Tome and Principe,2017,2239.0,1.0,Africa
+81,Saudi Arabia,2017,177.0,0.0,Eastern Mediterranean
+82,Senegal,2017,395706.0,284.0,Africa
+83,Sierra Leone,2017,1651236.0,1298.0,Africa
+84,Solomon Islands,2017,52463.0,27.0,Western Pacific
+85,Somalia,2017,35138.0,20.0,Eastern Mediterranean
+86,South Africa,2017,22061.0,301.0,Africa
+87,South Sudan,2017,1488005.0,3483.0,Africa
+88,Sri Lanka,2017,0.0,0.0,South-East Asia
+89,Sudan,2017,720879.0,1446.0,Eastern Mediterranean
+90,Suriname,2017,40.0,1.0,Americas
+91,Syrian Arab Republic,2017,0.0,30.0,Eastern Mediterranean
+92,Tajikistan,2017,0.0,30.0,Europe
+93,Thailand,2017,11440.0,11.0,South-East Asia
+94,Timor-Leste,2017,16.0,0.0,South-East Asia
+95,Togo,2017,1209034.0,995.0,Africa
+96,Turkey,2017,0.0,30.0,Europe
+97,Turkmenistan,2017,0.0,30.0,Europe
+98,Uganda,2017,11667831.0,5111.0,Africa
+99,United Arab Emirates,2017,0.0,30.0,Eastern Mediterranean
+100,United Republic of Tanzania,2017,5354486.0,3685.0,Africa
+101,Uzbekistan,2017,0.0,30.0,Europe
+102,Vanuatu,2017,1071.0,0.0,Western Pacific
+103,Venezuela (Bolivarian Republic of),2017,411586.0,30.0,Americas
+104,Viet Nam,2017,4548.0,6.0,Western Pacific
+105,Yemen,2017,114004.0,37.0,Eastern Mediterranean
+106,Zambia,2017,5505639.0,1425.0,Africa
+107,Zimbabwe,2017,315624.0,527.0,Africa
+108,Afghanistan,2016,139087.0,47.0,Eastern Mediterranean
+109,Algeria,2016,0.0,0.0,Africa
+110,Angola,2016,3794253.0,15997.0,Africa
+111,Argentina,2016,0.0,0.0,Americas
+112,Armenia,2016,0.0,0.0,Europe
+113,Azerbaijan,2016,0.0,0.0,Europe
+114,Bangladesh,2016,4787.0,17.0,South-East Asia
+115,Belize,2016,4.0,0.0,Americas
+116,Benin,2016,1324576.0,1646.0,Africa
+117,Bhutan,2016,15.0,0.0,South-East Asia
+118,Bolivia (Plurinational State of),2016,5542.0,0.0,Americas
+119,Botswana,2016,716.0,3.0,Africa
+120,Brazil,2016,124178.0,35.0,Americas
+121,Burkina Faso,2016,9779154.0,3974.0,Africa
+122,Burundi,2016,8274062.0,5853.0,Africa
+123,Cabo Verde,2016,48.0,1.0,Africa
+124,Cambodia,2016,23492.0,3.0,Western Pacific
+125,Cameroon,2016,1675264.0,2639.0,Africa
+126,Central African Republic,2016,1032764.0,2668.0,Africa
+127,Chad,2016,1294768.0,1686.0,Africa
+128,China,2016,3.0,15.0,Western Pacific
+129,Colombia,2016,82609.0,36.0,Americas
+130,Comoros,2016,1066.0,0.0,Africa
+131,Congo,2016,171847.0,733.0,Americas
+132,Costa Rica,2016,4.0,0.0,Americas
+133,Côte d'Ivoire,2016,3471024.0,3340.0,Africa
+134,Democratic People's Republic of Korea,2016,2719.0,0.0,Western Pacific
+135,Democratic Republic of the Congo,2016,15330841.0,33997.0,Africa
+136,Djibouti,2016,13804.0,5.0,Eastern Mediterranean
+137,Dominican Republic,2016,690.0,2.0,Americas
+138,Ecuador,2016,1191.0,0.0,Americas
+139,Egypt,2016,0.0,30.0,Eastern Mediterranean
+140,El Salvador,2016,12.0,0.0,Americas
+141,Equatorial Guinea,2016,147714.0,109.0,Africa
+142,Eritrea,2016,24251.0,21.0,Africa
+143,Eswatini,2016,350.0,3.0,Africa
+144,Ethiopia,2016,1718504.0,510.0,Africa
+145,Gabon,2016,23915.0,101.0,Africa
+146,Gambia,2016,153774.0,79.0,Africa
+147,Georgia,2016,0.0,0.0,Europe
+148,Ghana,2016,4535167.0,1264.0,Africa
+149,Guatemala,2016,4853.0,0.0,Americas
+150,Guinea,2016,992146.0,867.0,Africa
+151,Guinea-Bissau,2016,150903.0,191.0,Africa
+152,Guyana,2016,12367.0,13.0,Americas
+153,Haiti,2016,21430.0,13.0,Americas
+154,Honduras,2016,4094.0,0.0,Americas
+155,India,2016,1087285.0,331.0,South-East Asia
+156,Indonesia,2016,218450.0,161.0,South-East Asia
+157,Iran (Islamic Republic of),2016,81.0,0.0,Eastern Mediterranean
+158,Iraq,2016,0.0,30.0,Eastern Mediterranean
+159,Kazakhstan,2016,0.0,30.0,Europe
+160,Kenya,2016,2783846.0,603.0,Africa
+161,Kyrgyzstan,2016,0.0,0.0,Europe
+162,Lao People's Democratic Republic,2016,11223.0,1.0,Western Pacific
+163,Liberia,2016,1191137.0,1259.0,Africa
+164,Madagascar,2016,475333.0,443.0,Africa
+165,Malawi,2016,4827373.0,4000.0,Africa
+166,Malaysia,2016,266.0,2.0,Western Pacific
+167,Mali,2016,2156282.0,1344.0,Africa
+168,Mauritania,2016,23042.0,315.0,Africa
+169,Mauritius,2016,14792.0,30.0,Africa
+170,Mexico,2016,551.0,1.0,Americas
+171,Morocco,2016,0.0,30.0,Eastern Mediterranean
+172,Mozambique,2016,8520376.0,1685.0,Africa
+173,Myanmar,2016,110146.0,21.0,South-East Asia
+174,Namibia,2016,25198.0,65.0,Africa
+175,Nepal,2016,507.0,3.0,South-East Asia
+176,Nicaragua,2016,6272.0,2.0,Americas
+177,Niger,2016,4148167.0,2226.0,Africa
+178,Nigeria,2016,9234387.0,30.0,Africa
+179,Oman,2016,0.0,30.0,Eastern Mediterranean
+180,Pakistan,2016,318449.0,33.0,Eastern Mediterranean
+181,Panama,2016,769.0,0.0,Americas
+182,Papua New Guinea,2016,478497.0,306.0,Western Pacific
+183,Paraguay,2016,0.0,1.0,Americas
+184,Peru,2016,56623.0,7.0,Americas
+185,Philippines,2016,6680.0,7.0,Western Pacific
+186,Republic of Korea,2016,602.0,1.0,Western Pacific
+187,Rwanda,2016,3380568.0,715.0,Africa
+188,Sao Tome and Principe,2016,2238.0,0.0,Africa
+189,Saudi Arabia,2016,272.0,0.0,Eastern Mediterranean
+190,Senegal,2016,349540.0,325.0,Africa
+191,Sierra Leone,2016,1775306.0,1345.0,Africa
+192,Solomon Islands,2016,54431.0,20.0,Western Pacific
+193,Somalia,2016,35628.0,13.0,Eastern Mediterranean
+194,South Africa,2016,4323.0,34.0,Africa
+195,South Sudan,2016,0.0,30.0,Africa
+196,Sri Lanka,2016,0.0,0.0,South-East Asia
+197,Sudan,2016,575015.0,984.0,Eastern Mediterranean
+198,Suriname,2016,76.0,0.0,Americas
+199,Syrian Arab Republic,2016,0.0,30.0,Eastern Mediterranean
+200,Tajikistan,2016,0.0,0.0,Europe
+201,Thailand,2016,11522.0,27.0,South-East Asia
+202,Timor-Leste,2016,94.0,0.0,South-East Asia
+203,Togo,2016,1183265.0,847.0,Africa
+204,Turkey,2016,0.0,6.0,Europe
+205,Turkmenistan,2016,0.0,0.0,Europe
+206,Uganda,2016,9385132.0,5635.0,Africa
+207,United Arab Emirates,2016,0.0,30.0,Eastern Mediterranean
+208,United Republic of Tanzania,2016,5193520.0,5046.0,Africa
+209,Uzbekistan,2016,0.0,0.0,Europe
+210,Vanuatu,2016,1868.0,0.0,Western Pacific
+211,Venezuela (Bolivarian Republic of),2016,240613.0,1.0,Americas
+212,Viet Nam,2016,4161.0,3.0,Western Pacific
+213,Yemen,2016,98701.0,65.0,Eastern Mediterranean
+214,Zambia,2016,4851319.0,1827.0,Africa
+215,Zimbabwe,2016,279988.0,351.0,Africa
+216,Afghanistan,2015,86895.0,49.0,Eastern Mediterranean
+217,Algeria,2015,0.0,0.0,Africa
+218,Angola,2015,2769305.0,7832.0,Africa
+219,Argentina,2015,0.0,0.0,Americas
+220,Armenia,2015,0.0,0.0,Europe
+221,Azerbaijan,2015,0.0,0.0,Europe
+222,Bangladesh,2015,6608.0,9.0,South-East Asia
+223,Belize,2015,9.0,0.0,Americas
+224,Benin,2015,1268347.0,1416.0,Africa
+225,Bhutan,2015,34.0,0.0,South-East Asia
+226,Bolivia (Plurinational State of),2015,6874.0,0.0,Americas
+227,Botswana,2015,326.0,5.0,Africa
+228,Brazil,2015,138229.0,35.0,Americas
+229,Burkina Faso,2015,7015446.0,5379.0,Africa
+230,Burundi,2015,5159706.0,3799.0,Africa
+231,Cabo Verde,2015,7.0,0.0,Africa
+232,Cambodia,2015,33930.0,10.0,Western Pacific
+233,Cameroon,2015,1162784.0,3440.0,Africa
+234,Central African Republic,2015,598833.0,1763.0,Africa
+235,Chad,2015,787046.0,1572.0,Africa
+236,China,2015,39.0,20.0,Western Pacific
+237,Colombia,2015,47616.0,18.0,Americas
+238,Comoros,2015,1300.0,1.0,Africa
+239,Congo,2015,51529.0,435.0,Americas
+240,Costa Rica,2015,0.0,0.0,Americas
+241,Côte d'Ivoire,2015,3375904.0,2604.0,Africa
+242,Democratic People's Republic of Korea,2015,773.0,0.0,Western Pacific
+243,Democratic Republic of the Congo,2015,11627473.0,39054.0,Africa
+244,Djibouti,2015,9473.0,23.0,Eastern Mediterranean
+245,Dominican Republic,2015,631.0,3.0,Americas
+246,Ecuador,2015,618.0,0.0,Americas
+247,Egypt,2015,0.0,30.0,Eastern Mediterranean
+248,El Salvador,2015,2.0,0.0,Americas
+249,Equatorial Guinea,2015,15142.0,28.0,Africa
+250,Eritrea,2015,19372.0,12.0,Africa
+251,Eswatini,2015,157.0,5.0,Africa
+252,Ethiopia,2015,1867059.0,662.0,Africa
+253,Gabon,2015,23867.0,309.0,Africa
+254,Gambia,2015,240382.0,167.0,Africa
+255,Georgia,2015,0.0,1.0,Europe
+256,Ghana,2015,4319919.0,2137.0,Africa
+257,Guatemala,2015,6836.0,1.0,Americas
+258,Guinea,2015,810979.0,846.0,Africa
+259,Guinea-Bissau,2015,142309.0,477.0,Africa
+260,Guyana,2015,9984.0,12.0,Americas
+261,Haiti,2015,17583.0,15.0,Americas
+262,Honduras,2015,3575.0,0.0,Americas
+263,India,2015,1169261.0,384.0,South-East Asia
+264,Indonesia,2015,217025.0,157.0,South-East Asia
+265,Iran (Islamic Republic of),2015,167.0,1.0,Eastern Mediterranean
+266,Iraq,2015,0.0,30.0,Eastern Mediterranean
+267,Kazakhstan,2015,0.0,30.0,Europe
+268,Kenya,2015,1499027.0,15061.0,Africa
+269,Kyrgyzstan,2015,0.0,0.0,Europe
+270,Lao People's Democratic Republic,2015,36056.0,2.0,Western Pacific
+271,Liberia,2015,931086.0,1379.0,Africa
+272,Madagascar,2015,744103.0,841.0,Africa
+273,Malawi,2015,3661238.0,3799.0,Africa
+274,Malaysia,2015,242.0,4.0,Western Pacific
+275,Mali,2015,2295611.0,1544.0,Africa
+276,Mauritania,2015,22631.0,39.0,Africa
+277,Mauritius,2015,14792.0,30.0,Africa
+278,Mexico,2015,517.0,0.0,Americas
+279,Morocco,2015,0.0,30.0,Eastern Mediterranean
+280,Mozambique,2015,7718782.0,2467.0,Africa
+281,Myanmar,2015,182768.0,37.0,South-East Asia
+282,Namibia,2015,12168.0,45.0,Africa
+283,Nepal,2015,591.0,0.0,South-East Asia
+284,Nicaragua,2015,2279.0,1.0,Americas
+285,Niger,2015,2272000.0,2778.0,Africa
+286,Nigeria,2015,6850782.0,30.0,Africa
+287,Oman,2015,0.0,30.0,Eastern Mediterranean
+288,Pakistan,2015,202013.0,34.0,Eastern Mediterranean
+289,Panama,2015,546.0,0.0,Americas
+290,Papua New Guinea,2015,297787.0,163.0,Western Pacific
+291,Paraguay,2015,0.0,0.0,Americas
+292,Peru,2015,61865.0,5.0,Americas
+293,Philippines,2015,8266.0,20.0,Western Pacific
+294,Republic of Korea,2015,627.0,0.0,Western Pacific
+295,Rwanda,2015,2505794.0,516.0,Africa
+296,Sao Tome and Principe,2015,2058.0,0.0,Africa
+297,Saudi Arabia,2015,83.0,0.0,Eastern Mediterranean
+298,Senegal,2015,492253.0,526.0,Africa
+299,Sierra Leone,2015,1483376.0,1107.0,Africa
+300,Solomon Islands,2015,23998.0,13.0,Western Pacific
+301,Somalia,2015,20953.0,27.0,Eastern Mediterranean
+302,South Africa,2015,555.0,110.0,Africa
+303,South Sudan,2015,0.0,30.0,Africa
+304,Sri Lanka,2015,0.0,0.0,South-East Asia
+305,Sudan,2015,586827.0,868.0,Eastern Mediterranean
+306,Suriname,2015,81.0,0.0,Americas
+307,Syrian Arab Republic,2015,0.0,30.0,Eastern Mediterranean
+308,Tajikistan,2015,0.0,0.0,Europe
+309,Thailand,2015,8022.0,33.0,South-East Asia
+310,Timor-Leste,2015,80.0,0.0,South-East Asia
+311,Togo,2015,1113927.0,1205.0,Africa
+312,Turkey,2015,0.0,3.0,Europe
+313,Turkmenistan,2015,0.0,0.0,Europe
+314,Uganda,2015,7137662.0,6100.0,Africa
+315,United Arab Emirates,2015,0.0,30.0,Eastern Mediterranean
+316,United Republic of Tanzania,2015,4241364.0,6313.0,Africa
+317,Uzbekistan,2015,0.0,0.0,Europe
+318,Vanuatu,2015,423.0,0.0,Western Pacific
+319,Venezuela (Bolivarian Republic of),2015,136402.0,8.0,Americas
+320,Viet Nam,2015,9331.0,3.0,Western Pacific
+321,Yemen,2015,76259.0,14.0,Eastern Mediterranean
+322,Zambia,2015,4184661.0,2389.0,Africa
+323,Zimbabwe,2015,391651.0,200.0,Africa
+324,Afghanistan,2014,61362.0,32.0,Eastern Mediterranean
+325,Algeria,2014,0.0,0.0,Africa
+326,Angola,2014,2298979.0,5714.0,Africa
+327,Argentina,2014,0.0,0.0,Americas
+328,Armenia,2014,0.0,0.0,Europe
+329,Azerbaijan,2014,0.0,0.0,Europe
+330,Bangladesh,2014,10216.0,45.0,South-East Asia
+331,Belize,2014,19.0,0.0,Americas
+332,Benin,2014,1044235.0,1869.0,Africa
+333,Bhutan,2014,19.0,0.0,South-East Asia
+334,Bolivia (Plurinational State of),2014,7401.0,1.0,Americas
+335,Botswana,2014,1346.0,22.0,Africa
+336,Brazil,2014,139272.0,36.0,Americas
+337,Burkina Faso,2014,5428655.0,5632.0,Africa
+338,Burundi,2014,4585273.0,2974.0,Africa
+339,Cabo Verde,2014,26.0,1.0,Africa
+340,Cambodia,2014,25152.0,18.0,Western Pacific
+341,Cameroon,2014,14792.0,4398.0,Africa
+342,Central African Republic,2014,295088.0,635.0,Africa
+343,Chad,2014,914032.0,1720.0,Africa
+344,China,2014,56.0,0.0,Western Pacific
+345,Colombia,2014,40768.0,17.0,Americas
+346,Comoros,2014,2203.0,0.0,Africa
+347,Congo,2014,66323.0,271.0,Americas
+348,Costa Rica,2014,0.0,0.0,Americas
+349,Côte d'Ivoire,2014,3712831.0,4069.0,Africa
+350,Democratic People's Republic of Korea,2014,10535.0,0.0,Western Pacific
+351,Democratic Republic of the Congo,2014,9968983.0,25502.0,Africa
+352,Djibouti,2014,9439.0,28.0,Eastern Mediterranean
+353,Dominican Republic,2014,459.0,4.0,Americas
+354,Ecuador,2014,242.0,0.0,Americas
+355,Egypt,2014,22.0,30.0,Eastern Mediterranean
+356,El Salvador,2014,6.0,0.0,Americas
+357,Equatorial Guinea,2014,20417.0,30.0,Africa
+358,Eritrea,2014,30768.0,15.0,Africa
+359,Eswatini,2014,711.0,30.0,Africa
+360,Ethiopia,2014,2118815.0,213.0,Africa
+361,Gabon,2014,31900.0,159.0,Africa
+362,Gambia,2014,166229.0,170.0,Africa
+363,Georgia,2014,0.0,0.0,Europe
+364,Ghana,2014,3415912.0,2200.0,Africa
+365,Guatemala,2014,5685.0,1.0,Americas
+366,Guinea,2014,660207.0,1067.0,Africa
+367,Guinea-Bissau,2014,93431.0,357.0,Africa
+368,Guyana,2014,12354.0,11.0,Americas
+369,Haiti,2014,17696.0,9.0,Americas
+370,Honduras,2014,3378.0,2.0,Americas
+371,India,2014,1102205.0,562.0,South-East Asia
+372,Indonesia,2014,252027.0,217.0,South-East Asia
+373,Iran (Islamic Republic of),2014,358.0,0.0,Eastern Mediterranean
+374,Iraq,2014,0.0,0.0,Eastern Mediterranean
+375,Kazakhstan,2014,14792.0,30.0,Europe
+376,Kenya,2014,2808931.0,472.0,Africa
+377,Kyrgyzstan,2014,0.0,0.0,Europe
+378,Lao People's Democratic Republic,2014,48071.0,4.0,Western Pacific
+379,Liberia,2014,864204.0,2288.0,Africa
+380,Madagascar,2014,377963.0,551.0,Africa
+381,Malawi,2014,2905310.0,4490.0,Africa
+382,Malaysia,2014,3147.0,4.0,Western Pacific
+383,Mali,2014,2039853.0,2309.0,Africa
+384,Mauritania,2014,15835.0,19.0,Africa
+385,Mauritius,2014,14792.0,30.0,Africa
+386,Mexico,2014,656.0,0.0,Americas
+387,Morocco,2014,0.0,30.0,Eastern Mediterranean
+388,Mozambique,2014,7117648.0,3245.0,Africa
+389,Myanmar,2014,205658.0,92.0,South-East Asia
+390,Namibia,2014,15914.0,61.0,Africa
+391,Nepal,2014,832.0,0.0,South-East Asia
+392,Nicaragua,2014,1142.0,0.0,Americas
+393,Niger,2014,1953309.0,2691.0,Africa
+394,Nigeria,2014,7826954.0,6082.0,Africa
+395,Oman,2014,0.0,0.0,Eastern Mediterranean
+396,Pakistan,2014,275149.0,56.0,Eastern Mediterranean
+397,Panama,2014,864.0,0.0,Americas
+398,Papua New Guinea,2014,281182.0,203.0,Western Pacific
+399,Paraguay,2014,0.0,0.0,Americas
+400,Peru,2014,65252.0,4.0,Americas
+401,Philippines,2014,4903.0,10.0,Western Pacific
+402,Republic of Korea,2014,557.0,0.0,Western Pacific
+403,Rwanda,2014,1610812.0,496.0,Africa
+404,Sao Tome and Principe,2014,1754.0,0.0,Africa
+405,Saudi Arabia,2014,30.0,0.0,Eastern Mediterranean
+406,Senegal,2014,268912.0,500.0,Africa
+407,Sierra Leone,2014,1374476.0,2848.0,Africa
+408,Solomon Islands,2014,18404.0,23.0,Western Pacific
+409,Somalia,2014,11001.0,14.0,Eastern Mediterranean
+410,South Africa,2014,11705.0,174.0,Africa
+411,South Sudan,2014,71377.0,30.0,Africa
+412,Sri Lanka,2014,0.0,0.0,South-East Asia
+413,Sudan,2014,1068506.0,823.0,Eastern Mediterranean
+414,Suriname,2014,401.0,1.0,Americas
+415,Syrian Arab Republic,2014,0.0,4.0,Eastern Mediterranean
+416,Tajikistan,2014,2.0,0.0,Europe
+417,Thailand,2014,37921.0,38.0,South-East Asia
+418,Timor-Leste,2014,342.0,1.0,South-East Asia
+419,Togo,2014,1130251.0,1205.0,Africa
+420,Turkey,2014,0.0,1.0,Europe
+421,Turkmenistan,2014,0.0,0.0,Europe
+422,Uganda,2014,3631939.0,5921.0,Africa
+423,United Arab Emirates,2014,0.0,30.0,Eastern Mediterranean
+424,United Republic of Tanzania,2014,680442.0,5373.0,Africa
+425,Uzbekistan,2014,0.0,0.0,Europe
+426,Vanuatu,2014,982.0,0.0,Western Pacific
+427,Venezuela (Bolivarian Republic of),2014,90708.0,5.0,Americas
+428,Viet Nam,2014,15752.0,6.0,Western Pacific
+429,Yemen,2014,86707.0,23.0,Eastern Mediterranean
+430,Zambia,2014,4077547.0,3257.0,Africa
+431,Zimbabwe,2014,535931.0,406.0,Africa
+432,Afghanistan,2013,39263.0,24.0,Eastern Mediterranean
+433,Algeria,2013,8.0,0.0,Africa
+434,Angola,2013,1999868.0,7300.0,Africa
+435,Argentina,2013,0.0,0.0,Americas
+436,Armenia,2013,0.0,0.0,Europe
+437,Azerbaijan,2013,0.0,0.0,Europe
+438,Bangladesh,2013,3864.0,15.0,South-East Asia
+439,Belize,2013,20.0,0.0,Americas
+440,Benin,2013,1078834.0,2288.0,Africa
+441,Bhutan,2013,15.0,0.0,South-East Asia
+442,Bolivia (Plurinational State of),2013,7301.0,0.0,Americas
+443,Botswana,2013,456.0,7.0,Africa
+444,Brazil,2013,168862.0,40.0,Americas
+445,Burkina Faso,2013,3769051.0,6294.0,Africa
+446,Burundi,2013,4141387.0,3411.0,Africa
+447,Cabo Verde,2013,22.0,0.0,Africa
+448,Cambodia,2013,21309.0,12.0,Western Pacific
+449,Cameroon,2013,26651.0,4349.0,Africa
+450,Central African Republic,2013,116300.0,1026.0,Africa
+451,Chad,2013,754565.0,1881.0,Africa
+452,China,2013,86.0,0.0,Western Pacific
+453,Colombia,2013,51696.0,10.0,Americas
+454,Comoros,2013,53156.0,15.0,Africa
+455,Congo,2013,43232.0,2870.0,Americas
+456,Costa Rica,2013,0.0,0.0,Americas
+457,Côte d'Ivoire,2013,2506953.0,3261.0,Africa
+458,Democratic People's Republic of Korea,2013,14407.0,0.0,Western Pacific
+459,Democratic Republic of the Congo,2013,6715223.0,30918.0,Africa
+460,Djibouti,2013,1684.0,17.0,Eastern Mediterranean
+461,Dominican Republic,2013,579.0,5.0,Americas
+462,Ecuador,2013,368.0,0.0,Americas
+463,Egypt,2013,0.0,30.0,Eastern Mediterranean
+464,El Salvador,2013,6.0,0.0,Americas
+465,Equatorial Guinea,2013,13129.0,66.0,Africa
+466,Eritrea,2013,21317.0,6.0,Africa
+467,Eswatini,2013,962.0,4.0,Africa
+468,Ethiopia,2013,2645454.0,358.0,Africa
+469,Gabon,2013,28982.0,273.0,Africa
+470,Gambia,2013,240792.0,262.0,Africa
+471,Georgia,2013,0.0,0.0,Europe
+472,Ghana,2013,1639451.0,2506.0,Africa
+473,Guatemala,2013,6214.0,1.0,Americas
+474,Guinea,2013,211257.0,108.0,Africa
+475,Guinea-Bissau,2013,54584.0,418.0,Africa
+476,Guyana,2013,31479.0,14.0,Americas
+477,Haiti,2013,20957.0,10.0,Americas
+478,Honduras,2013,5428.0,1.0,Americas
+479,India,2013,881730.0,440.0,South-East Asia
+480,Indonesia,2013,343527.0,385.0,South-East Asia
+481,Iran (Islamic Republic of),2013,479.0,0.0,Eastern Mediterranean
+482,Iraq,2013,0.0,0.0,Eastern Mediterranean
+483,Kazakhstan,2013,14792.0,30.0,Europe
+484,Kenya,2013,2335286.0,360.0,Africa
+485,Kyrgyzstan,2013,0.0,0.0,Europe
+486,Lao People's Democratic Republic,2013,38131.0,28.0,Western Pacific
+487,Liberia,2013,1244220.0,1191.0,Africa
+488,Madagascar,2013,385598.0,641.0,Africa
+489,Malawi,2013,1280892.0,3723.0,Africa
+490,Malaysia,2013,2921.0,10.0,Western Pacific
+491,Mali,2013,1367218.0,1680.0,Africa
+492,Mauritania,2013,13085.0,46.0,Africa
+493,Mauritius,2013,14792.0,30.0,Africa
+494,Mexico,2013,495.0,0.0,Americas
+495,Morocco,2013,0.0,0.0,Eastern Mediterranean
+496,Mozambique,2013,2998874.0,2941.0,Africa
+497,Myanmar,2013,333871.0,236.0,South-East Asia
+498,Namibia,2013,4911.0,21.0,Africa
+499,Nepal,2013,1974.0,0.0,South-East Asia
+500,Nicaragua,2013,1162.0,0.0,Americas
+501,Niger,2013,2353422.0,2209.0,Africa
+502,Nigeria,2013,14792.0,7878.0,Africa
+503,Oman,2013,0.0,0.0,Eastern Mediterranean
+504,Pakistan,2013,281755.0,244.0,Eastern Mediterranean
+505,Panama,2013,705.0,0.0,Americas
+506,Papua New Guinea,2013,279994.0,307.0,Western Pacific
+507,Paraguay,2013,0.0,0.0,Americas
+508,Peru,2013,48719.0,4.0,Americas
+509,Philippines,2013,6514.0,12.0,Western Pacific
+510,Republic of Korea,2013,383.0,0.0,Western Pacific
+511,Rwanda,2013,962618.0,409.0,Africa
+512,Sao Tome and Principe,2013,9243.0,11.0,Africa
+513,Saudi Arabia,2013,34.0,0.0,Eastern Mediterranean
+514,Senegal,2013,366687.0,815.0,Africa
+515,Sierra Leone,2013,1701958.0,4326.0,Africa
+516,Solomon Islands,2013,25609.0,18.0,Western Pacific
+517,Somalia,2013,8944.0,23.0,Eastern Mediterranean
+518,South Africa,2013,8645.0,105.0,Africa
+519,South Sudan,2013,262520.0,1311.0,Africa
+520,Sri Lanka,2013,0.0,0.0,South-East Asia
+521,Sudan,2013,592383.0,685.0,Eastern Mediterranean
+522,Suriname,2013,729.0,1.0,Americas
+523,Syrian Arab Republic,2013,0.0,1.0,Eastern Mediterranean
+524,Tajikistan,2013,3.0,0.0,Europe
+525,Thailand,2013,33302.0,47.0,South-East Asia
+526,Timor-Leste,2013,1025.0,3.0,South-East Asia
+527,Togo,2013,882430.0,1361.0,Africa
+528,Turkey,2013,0.0,3.0,Europe
+529,Turkmenistan,2013,14792.0,0.0,Europe
+530,Uganda,2013,1502362.0,7277.0,Africa
+531,United Arab Emirates,2013,0.0,30.0,Eastern Mediterranean
+532,United Republic of Tanzania,2013,1551923.0,8528.0,Africa
+533,Uzbekistan,2013,0.0,0.0,Europe
+534,Vanuatu,2013,2381.0,0.0,Western Pacific
+535,Venezuela (Bolivarian Republic of),2013,78643.0,6.0,Americas
+536,Viet Nam,2013,17128.0,6.0,Western Pacific
+537,Yemen,2013,102778.0,55.0,Eastern Mediterranean
+538,Zambia,2013,14792.0,3548.0,Africa
+539,Zimbabwe,2013,422633.0,352.0,Africa
+540,Afghanistan,2012,54840.0,36.0,Eastern Mediterranean
+541,Algeria,2012,55.0,0.0,Africa
+542,Angola,2012,1496834.0,5736.0,Africa
+543,Argentina,2012,0.0,0.0,Americas
+544,Armenia,2012,0.0,0.0,Europe
+545,Azerbaijan,2012,3.0,0.0,Europe
+546,Bangladesh,2012,9901.0,11.0,South-East Asia
+547,Belize,2012,33.0,0.0,Americas
+548,Benin,2012,705839.0,2261.0,Africa
+549,Bhutan,2012,14792.0,1.0,South-East Asia
+550,Bolivia (Plurinational State of),2012,7415.0,0.0,Americas
+551,Botswana,2012,193.0,3.0,Africa
+552,Brazil,2012,242758.0,60.0,Americas
+553,Burkina Faso,2012,3858046.0,7963.0,Africa
+554,Burundi,2012,2151076.0,2263.0,Africa
+555,Cabo Verde,2012,1.0,0.0,Africa
+556,Cambodia,2012,40476.0,45.0,Western Pacific
+557,Cameroon,2012,14792.0,3209.0,Africa
+558,Central African Republic,2012,46759.0,1442.0,Africa
+559,Chad,2012,7710.0,1359.0,Africa
+560,China,2012,244.0,0.0,Western Pacific
+561,Colombia,2012,60179.0,24.0,Americas
+562,Comoros,2012,49840.0,17.0,Africa
+563,Congo,2012,120319.0,623.0,Americas
+564,Costa Rica,2012,6.0,0.0,Americas
+565,Côte d'Ivoire,2012,1140627.0,1534.0,Africa
+566,Democratic People's Republic of Korea,2012,21850.0,0.0,Western Pacific
+567,Democratic Republic of the Congo,2012,4791598.0,21601.0,Africa
+568,Djibouti,2012,25.0,0.0,Eastern Mediterranean
+569,Dominican Republic,2012,952.0,8.0,Americas
+570,Ecuador,2012,544.0,0.0,Americas
+571,Egypt,2012,0.0,30.0,Eastern Mediterranean
+572,El Salvador,2012,13.0,0.0,Americas
+573,Equatorial Guinea,2012,15169.0,77.0,Africa
+574,Eritrea,2012,21815.0,30.0,Africa
+575,Eswatini,2012,562.0,3.0,Africa
+576,Ethiopia,2012,1692578.0,1621.0,Africa
+577,Gabon,2012,19753.0,134.0,Africa
+578,Gambia,2012,300363.0,289.0,Africa
+579,Georgia,2012,0.0,0.0,Europe
+580,Ghana,2012,3755166.0,2855.0,Africa
+581,Guatemala,2012,5346.0,0.0,Americas
+582,Guinea,2012,317200.0,979.0,Africa
+583,Guinea-Bissau,2012,50381.0,370.0,Africa
+584,Guyana,2012,31656.0,35.0,Americas
+585,Haiti,2012,25423.0,6.0,Americas
+586,Honduras,2012,6437.0,1.0,Americas
+587,India,2012,1067824.0,519.0,South-East Asia
+588,Indonesia,2012,417819.0,252.0,South-East Asia
+589,Iran (Islamic Republic of),2012,756.0,0.0,Eastern Mediterranean
+590,Iraq,2012,0.0,0.0,Eastern Mediterranean
+591,Kazakhstan,2012,14792.0,30.0,Europe
+592,Kenya,2012,1453471.0,785.0,Africa
+593,Kyrgyzstan,2012,0.0,0.0,Europe
+594,Lao People's Democratic Republic,2012,46202.0,44.0,Western Pacific
+595,Liberia,2012,1407455.0,1725.0,Africa
+596,Madagascar,2012,359420.0,552.0,Africa
+597,Malawi,2012,1564984.0,5516.0,Africa
+598,Malaysia,2012,3662.0,12.0,Western Pacific
+599,Mali,2012,886482.0,1894.0,Africa
+600,Mauritania,2012,9037.0,106.0,Africa
+601,Mauritius,2012,14792.0,30.0,Africa
+602,Mexico,2012,833.0,0.0,Americas
+603,Morocco,2012,0.0,30.0,Eastern Mediterranean
+604,Mozambique,2012,1813984.0,2818.0,Africa
+605,Myanmar,2012,480586.0,403.0,South-East Asia
+606,Namibia,2012,194.0,4.0,Africa
+607,Nepal,2012,2092.0,0.0,South-East Asia
+608,Nicaragua,2012,1235.0,2.0,Americas
+609,Niger,2012,2239858.0,2825.0,Africa
+610,Nigeria,2012,14792.0,7734.0,Africa
+611,Oman,2012,0.0,0.0,Eastern Mediterranean
+612,Pakistan,2012,290781.0,260.0,Eastern Mediterranean
+613,Panama,2012,844.0,1.0,Americas
+614,Papua New Guinea,2012,150195.0,381.0,Western Pacific
+615,Paraguay,2012,0.0,0.0,Americas
+616,Peru,2012,31436.0,7.0,Americas
+617,Philippines,2012,7133.0,16.0,Western Pacific
+618,Republic of Korea,2012,394.0,0.0,Western Pacific
+619,Rwanda,2012,483470.0,459.0,Africa
+620,Sao Tome and Principe,2012,12550.0,7.0,Africa
+621,Saudi Arabia,2012,82.0,0.0,Eastern Mediterranean
+622,Senegal,2012,280241.0,649.0,Africa
+623,Sierra Leone,2012,1537322.0,3611.0,Africa
+624,Solomon Islands,2012,24383.0,18.0,Western Pacific
+625,Somalia,2012,35712.0,10.0,Eastern Mediterranean
+626,South Africa,2012,5629.0,72.0,Africa
+627,South Sudan,2012,225371.0,1321.0,Africa
+628,Sri Lanka,2012,23.0,0.0,South-East Asia
+629,Sudan,2012,526931.0,618.0,Eastern Mediterranean
+630,Suriname,2012,356.0,0.0,Americas
+631,Syrian Arab Republic,2012,0.0,1.0,Eastern Mediterranean
+632,Tajikistan,2012,18.0,0.0,Europe
+633,Thailand,2012,32569.0,37.0,South-East Asia
+634,Timor-Leste,2012,5211.0,3.0,South-East Asia
+635,Togo,2012,697374.0,1197.0,Africa
+636,Turkey,2012,0.0,0.0,Europe
+637,Turkmenistan,2012,14792.0,0.0,Europe
+638,Uganda,2012,2662258.0,6585.0,Africa
+639,United Arab Emirates,2012,14792.0,30.0,Eastern Mediterranean
+640,United Republic of Tanzania,2012,1986955.0,7820.0,Africa
+641,Uzbekistan,2012,0.0,0.0,Europe
+642,Vanuatu,2012,3435.0,0.0,Western Pacific
+643,Venezuela (Bolivarian Republic of),2012,52803.0,10.0,Americas
+644,Viet Nam,2012,19638.0,8.0,Western Pacific
+645,Yemen,2012,109908.0,72.0,Eastern Mediterranean
+646,Zambia,2012,14792.0,3705.0,Africa
+647,Zimbabwe,2012,276963.0,351.0,Africa
+648,Afghanistan,2011,77549.0,40.0,Eastern Mediterranean
+649,Algeria,2011,1.0,0.0,Africa
+650,Angola,2011,1632282.0,6909.0,Africa
+651,Argentina,2011,0.0,0.0,Americas
+652,Armenia,2011,0.0,0.0,Europe
+653,Azerbaijan,2011,4.0,0.0,Europe
+654,Bangladesh,2011,51773.0,36.0,South-East Asia
+655,Belize,2011,72.0,0.0,Americas
+656,Benin,2011,422968.0,1753.0,Africa
+657,Bhutan,2011,194.0,1.0,South-East Asia
+658,Bolivia (Plurinational State of),2011,7143.0,0.0,Americas
+659,Botswana,2011,432.0,8.0,Africa
+660,Brazil,2011,267146.0,70.0,Americas
+661,Burkina Faso,2011,428113.0,7001.0,Africa
+662,Burundi,2011,1571874.0,2233.0,Africa
+663,Cabo Verde,2011,7.0,1.0,Africa
+664,Cambodia,2011,57423.0,94.0,Western Pacific
+665,Cameroon,2011,15212.0,3808.0,Africa
+666,Central African Republic,2011,14792.0,858.0,Africa
+667,Chad,2011,181126.0,1220.0,Africa
+668,China,2011,3367.0,33.0,Western Pacific
+669,Colombia,2011,60105.0,23.0,Americas
+670,Comoros,2011,24856.0,19.0,Africa
+671,Congo,2011,37744.0,892.0,Americas
+672,Costa Rica,2011,10.0,0.0,Americas
+673,Côte d'Ivoire,2011,29976.0,1389.0,Africa
+674,Democratic People's Republic of Korea,2011,16760.0,0.0,Western Pacific
+675,Democratic Republic of the Congo,2011,4561981.0,23748.0,Africa
+676,Djibouti,2011,14792.0,0.0,Eastern Mediterranean
+677,Dominican Republic,2011,1616.0,10.0,Americas
+678,Ecuador,2011,1219.0,0.0,Americas
+679,Egypt,2011,0.0,4.0,Eastern Mediterranean
+680,El Salvador,2011,9.0,0.0,Americas
+681,Equatorial Guinea,2011,22466.0,52.0,Africa
+682,Eritrea,2011,34848.0,12.0,Africa
+683,Eswatini,2011,549.0,1.0,Africa
+684,Ethiopia,2011,1480306.0,936.0,Africa
+685,Gabon,2011,14792.0,74.0,Africa
+686,Gambia,2011,261967.0,440.0,Africa
+687,Georgia,2011,0.0,0.0,Europe
+688,Ghana,2011,1041260.0,3259.0,Africa
+689,Guatemala,2011,6817.0,0.0,Americas
+690,Guinea,2011,95574.0,743.0,Africa
+691,Guinea-Bissau,2011,71982.0,472.0,Africa
+692,Guyana,2011,29506.0,36.0,Americas
+693,Haiti,2011,34350.0,5.0,Americas
+694,Honduras,2011,7510.0,2.0,Americas
+695,India,2011,1310656.0,754.0,South-East Asia
+696,Indonesia,2011,422447.0,388.0,South-East Asia
+697,Iran (Islamic Republic of),2011,1632.0,0.0,Eastern Mediterranean
+698,Iraq,2011,0.0,0.0,Eastern Mediterranean
+699,Kazakhstan,2011,14792.0,30.0,Europe
+700,Kenya,2011,1002805.0,713.0,Africa
+701,Kyrgyzstan,2011,0.0,1.0,Europe
+702,Lao People's Democratic Republic,2011,17532.0,17.0,Western Pacific
+703,Liberia,2011,1915762.0,30.0,Africa
+704,Madagascar,2011,224498.0,398.0,Africa
+705,Malawi,2011,304499.0,6674.0,Africa
+706,Malaysia,2011,3954.0,12.0,Western Pacific
+707,Mali,2011,307035.0,2128.0,Africa
+708,Mauritania,2011,5991.0,66.0,Africa
+709,Mauritius,2011,14792.0,30.0,Africa
+710,Mexico,2011,1124.0,0.0,Americas
+711,Morocco,2011,0.0,30.0,Eastern Mediterranean
+712,Mozambique,2011,1756874.0,3086.0,Africa
+713,Myanmar,2011,465294.0,581.0,South-East Asia
+714,Namibia,2011,1860.0,36.0,Africa
+715,Nepal,2011,3414.0,2.0,South-East Asia
+716,Nicaragua,2011,925.0,1.0,Americas
+717,Niger,2011,780876.0,2802.0,Africa
+718,Nigeria,2011,14792.0,3353.0,Africa
+719,Oman,2011,0.0,0.0,Eastern Mediterranean
+720,Pakistan,2011,334589.0,4.0,Eastern Mediterranean
+721,Panama,2011,354.0,0.0,Americas
+722,Papua New Guinea,2011,84060.0,523.0,Western Pacific
+723,Paraguay,2011,1.0,0.0,Americas
+724,Peru,2011,25039.0,1.0,Americas
+725,Philippines,2011,9552.0,12.0,Western Pacific
+726,Republic of Korea,2011,505.0,2.0,Western Pacific
+727,Rwanda,2011,208858.0,380.0,Africa
+728,Sao Tome and Principe,2011,8442.0,19.0,Africa
+729,Saudi Arabia,2011,69.0,0.0,Eastern Mediterranean
+730,Senegal,2011,274119.0,472.0,Africa
+731,Sierra Leone,2011,638859.0,3573.0,Africa
+732,Solomon Islands,2011,26657.0,19.0,Western Pacific
+733,Somalia,2011,3351.0,5.0,Eastern Mediterranean
+734,South Africa,2011,9866.0,54.0,Africa
+735,South Sudan,2011,112024.0,406.0,Africa
+736,Sri Lanka,2011,124.0,0.0,South-East Asia
+737,Sudan,2011,506806.0,612.0,Eastern Mediterranean
+738,Suriname,2011,771.0,1.0,Americas
+739,Syrian Arab Republic,2011,0.0,0.0,Eastern Mediterranean
+740,Tajikistan,2011,65.0,0.0,Europe
+741,Thailand,2011,24897.0,43.0,South-East Asia
+742,Timor-Leste,2011,19739.0,16.0,South-East Asia
+743,Togo,2011,519450.0,1314.0,Africa
+744,Turkey,2011,0.0,4.0,Europe
+745,Turkmenistan,2011,14792.0,0.0,Europe
+746,Uganda,2011,231873.0,5958.0,Africa
+747,United Arab Emirates,2011,14792.0,30.0,Eastern Mediterranean
+748,United Republic of Tanzania,2011,2150761.0,11806.0,Africa
+749,Uzbekistan,2011,0.0,0.0,Europe
+750,Vanuatu,2011,4820.0,1.0,Western Pacific
+751,Venezuela (Bolivarian Republic of),2011,45824.0,16.0,Americas
+752,Viet Nam,2011,16612.0,14.0,Western Pacific
+753,Yemen,2011,90410.0,75.0,Eastern Mediterranean
+754,Zambia,2011,14792.0,4540.0,Africa
+755,Zimbabwe,2011,319935.0,451.0,Africa
+756,Afghanistan,2010,69397.0,22.0,Eastern Mediterranean
+757,Algeria,2010,1.0,1.0,Africa
+758,Angola,2010,1682870.0,8114.0,Africa
+759,Argentina,2010,14.0,0.0,Americas
+760,Armenia,2010,0.0,0.0,Europe
+761,Azerbaijan,2010,50.0,0.0,Europe
+762,Bangladesh,2010,55873.0,37.0,South-East Asia
+763,Belize,2010,150.0,0.0,Americas
+764,Benin,2010,14792.0,964.0,Africa
+765,Bhutan,2010,436.0,2.0,South-East Asia
+766,Bolivia (Plurinational State of),2010,13769.0,0.0,Americas
+767,Botswana,2010,1046.0,8.0,Africa
+768,Brazil,2010,334483.0,76.0,Americas
+769,Burkina Faso,2010,804539.0,9024.0,Africa
+770,Burundi,2010,1763447.0,2677.0,Africa
+771,Cabo Verde,2010,47.0,1.0,Africa
+772,Cambodia,2010,49356.0,151.0,Western Pacific
+773,Cameroon,2010,14792.0,4536.0,Africa
+774,Central African Republic,2010,14792.0,526.0,Africa
+775,Chad,2010,200448.0,886.0,Africa
+776,China,2010,4990.0,19.0,Western Pacific
+777,Colombia,2010,117589.0,42.0,Americas
+778,Comoros,2010,36538.0,53.0,Africa
+779,Congo,2010,14792.0,30.0,Americas
+780,Costa Rica,2010,110.0,0.0,Americas
+781,Côte d'Ivoire,2010,62726.0,1023.0,Africa
+782,Democratic People's Republic of Korea,2010,13520.0,0.0,Western Pacific
+783,Democratic Republic of the Congo,2010,2417780.0,23476.0,Africa
+784,Djibouti,2010,1010.0,0.0,Eastern Mediterranean
+785,Dominican Republic,2010,3414.0,15.0,Americas
+786,Ecuador,2010,1888.0,0.0,Americas
+787,Egypt,2010,0.0,2.0,Eastern Mediterranean
+788,El Salvador,2010,19.0,0.0,Americas
+789,Equatorial Guinea,2010,53813.0,30.0,Africa
+790,Eritrea,2010,35982.0,27.0,Africa
+791,Eswatini,2010,268.0,8.0,Africa
+792,Ethiopia,2010,1158197.0,1581.0,Africa
+793,Gabon,2010,13936.0,182.0,Africa
+794,Gambia,2010,116353.0,151.0,Africa
+795,Georgia,2010,0.0,0.0,Europe
+796,Ghana,2010,1071637.0,3859.0,Africa
+797,Guatemala,2010,7384.0,0.0,Americas
+798,Guinea,2010,20936.0,735.0,Africa
+799,Guinea-Bissau,2010,50391.0,296.0,Africa
+800,Guyana,2010,22935.0,24.0,Americas
+801,Haiti,2010,84153.0,8.0,Americas
+802,Honduras,2010,9744.0,3.0,Americas
+803,India,2010,1599986.0,1018.0,South-East Asia
+804,Indonesia,2010,465764.0,432.0,South-East Asia
+805,Iran (Islamic Republic of),2010,1847.0,0.0,Eastern Mediterranean
+806,Iraq,2010,0.0,0.0,Eastern Mediterranean
+807,Kazakhstan,2010,14792.0,30.0,Europe
+808,Kenya,2010,898531.0,26017.0,Africa
+809,Kyrgyzstan,2010,3.0,0.0,Europe
+810,Lao People's Democratic Republic,2010,20800.0,24.0,Western Pacific
+811,Liberia,2010,922173.0,1422.0,Africa
+812,Madagascar,2010,202450.0,427.0,Africa
+813,Malawi,2010,14792.0,8206.0,Africa
+814,Malaysia,2010,5194.0,13.0,Western Pacific
+815,Mali,2010,227482.0,3006.0,Africa
+816,Mauritania,2010,6367.0,60.0,Africa
+817,Mauritius,2010,14792.0,30.0,Africa
+818,Mexico,2010,1226.0,0.0,Americas
+819,Morocco,2010,3.0,2.0,Eastern Mediterranean
+820,Mozambique,2010,1522577.0,3354.0,Africa
+821,Myanmar,2010,420808.0,788.0,South-East Asia
+822,Namibia,2010,556.0,63.0,Africa
+823,Nepal,2010,3894.0,6.0,South-East Asia
+824,Nicaragua,2010,692.0,1.0,Americas
+825,Niger,2010,620058.0,3929.0,Africa
+826,Nigeria,2010,551187.0,4238.0,Africa
+827,Oman,2010,7.0,0.0,Eastern Mediterranean
+828,Pakistan,2010,240591.0,30.0,Eastern Mediterranean
+829,Panama,2010,418.0,1.0,Americas
+830,Papua New Guinea,2010,93956.0,616.0,Western Pacific
+831,Paraguay,2010,18.0,0.0,Americas
+832,Peru,2010,31546.0,0.0,Americas
+833,Philippines,2010,18560.0,30.0,Western Pacific
+834,Republic of Korea,2010,1267.0,1.0,Western Pacific
+835,Rwanda,2010,638669.0,670.0,Africa
+836,Sao Tome and Principe,2010,2740.0,14.0,Africa
+837,Saudi Arabia,2010,29.0,0.0,Eastern Mediterranean
+838,Senegal,2010,330331.0,553.0,Africa
+839,Sierra Leone,2010,934028.0,8188.0,Africa
+840,Solomon Islands,2010,39704.0,34.0,Western Pacific
+841,Somalia,2010,24553.0,6.0,Eastern Mediterranean
+842,South Africa,2010,8060.0,83.0,Africa
+843,South Sudan,2010,900283.0,1053.0,Africa
+844,Sri Lanka,2010,684.0,0.0,South-East Asia
+845,Sudan,2010,720557.0,1023.0,Eastern Mediterranean
+846,Suriname,2010,1712.0,1.0,Americas
+847,Syrian Arab Republic,2010,0.0,0.0,Eastern Mediterranean
+848,Tajikistan,2010,111.0,0.0,Europe
+849,Thailand,2010,32480.0,80.0,South-East Asia
+850,Timor-Leste,2010,48137.0,58.0,South-East Asia
+851,Togo,2010,617101.0,1507.0,Africa
+852,Turkey,2010,0.0,0.0,Europe
+853,Turkmenistan,2010,0.0,0.0,Europe
+854,Uganda,2010,1581160.0,8431.0,Africa
+855,United Arab Emirates,2010,14792.0,30.0,Eastern Mediterranean
+856,United Republic of Tanzania,2010,1278998.0,15867.0,Africa
+857,Uzbekistan,2010,3.0,0.0,Europe
+858,Vanuatu,2010,8169.0,1.0,Western Pacific
+859,Venezuela (Bolivarian Republic of),2010,45155.0,18.0,Americas
+860,Viet Nam,2010,17515.0,21.0,Western Pacific
+861,Yemen,2010,106697.0,92.0,Eastern Mediterranean
+862,Zambia,2010,14792.0,4834.0,Africa
+863,Zimbabwe,2010,249379.0,255.0,Africa
+864,Afghanistan,2009,64880.0,32.0,Eastern Mediterranean
+865,Algeria,2009,0.0,0.0,Africa
+866,Angola,2009,1573422.0,10530.0,Africa
+867,Argentina,2009,86.0,0.0,Americas
+868,Armenia,2009,0.0,0.0,Europe
+869,Azerbaijan,2009,78.0,0.0,Europe
+870,Bangladesh,2009,63873.0,47.0,South-East Asia
+871,Belize,2009,256.0,0.0,Americas
+872,Benin,2009,889597.0,1375.0,Africa
+873,Bhutan,2009,972.0,4.0,South-East Asia
+874,Bolivia (Plurinational State of),2009,9743.0,0.0,Americas
+875,Botswana,2009,1024.0,6.0,Africa
+876,Brazil,2009,309316.0,85.0,Americas
+877,Burkina Faso,2009,182527.0,7982.0,Africa
+878,Burundi,2009,1185622.0,1183.0,Africa
+879,Cabo Verde,2009,65.0,2.0,Africa
+880,Cambodia,2009,64595.0,279.0,Western Pacific
+881,Cameroon,2009,14792.0,4943.0,Africa
+882,Central African Republic,2009,14792.0,667.0,Africa
+883,Chad,2009,14792.0,221.0,Africa
+884,China,2009,9287.0,10.0,Western Pacific
+885,Colombia,2009,79347.0,28.0,Americas
+886,Comoros,2009,5982.0,30.0,Africa
+887,Congo,2009,92855.0,116.0,Americas
+888,Costa Rica,2009,262.0,1.0,Americas
+889,Côte d'Ivoire,2009,7388.0,18156.0,Africa
+890,Democratic People's Republic of Korea,2009,14632.0,0.0,Western Pacific
+891,Democratic Republic of the Congo,2009,1878705.0,21168.0,Africa
+892,Djibouti,2009,2686.0,0.0,Eastern Mediterranean
+893,Dominican Republic,2009,1643.0,14.0,Americas
+894,Ecuador,2009,4120.0,6.0,Americas
+895,Egypt,2009,0.0,2.0,Eastern Mediterranean
+896,El Salvador,2009,20.0,0.0,Americas
+897,Equatorial Guinea,2009,14184.0,23.0,Africa
+898,Eritrea,2009,11759.0,23.0,Africa
+899,Eswatini,2009,106.0,13.0,Africa
+900,Ethiopia,2009,1036316.0,1121.0,Africa
+901,Gabon,2009,660.0,197.0,Africa
+902,Gambia,2009,50378.0,240.0,Africa
+903,Georgia,2009,1.0,0.0,Europe
+904,Ghana,2009,1104370.0,3378.0,Africa
+905,Guatemala,2009,7080.0,0.0,Americas
+906,Guinea,2009,35841.0,586.0,Africa
+907,Guinea-Bissau,2009,11757.0,369.0,Africa
+908,Guyana,2009,13673.0,20.0,Americas
+909,Haiti,2009,49535.0,7.0,Americas
+910,Honduras,2009,9313.0,1.0,Americas
+911,India,2009,1563574.0,1144.0,South-East Asia
+912,Indonesia,2009,272491.0,900.0,South-East Asia
+913,Iran (Islamic Republic of),2009,4345.0,30.0,Eastern Mediterranean
+914,Iraq,2009,0.0,0.0,Eastern Mediterranean
+915,Kazakhstan,2009,14792.0,30.0,Europe
+916,Kenya,2009,14792.0,30.0,Africa
+917,Kyrgyzstan,2009,4.0,0.0,Europe
+918,Lao People's Democratic Republic,2009,14674.0,5.0,Western Pacific
+919,Liberia,2009,839581.0,1706.0,Africa
+920,Madagascar,2009,215110.0,348.0,Africa
+921,Malawi,2009,14792.0,8915.0,Africa
+922,Malaysia,2009,5955.0,23.0,Western Pacific
+923,Mali,2009,14792.0,2331.0,Africa
+924,Mauritania,2009,940.0,91.0,Africa
+925,Mauritius,2009,14792.0,30.0,Africa
+926,Mexico,2009,2703.0,0.0,Americas
+927,Morocco,2009,0.0,1.0,Eastern Mediterranean
+928,Mozambique,2009,93874.0,3747.0,Africa
+929,Myanmar,2009,436068.0,972.0,South-East Asia
+930,Namibia,2009,505.0,68.0,Africa
+931,Nepal,2009,3335.0,8.0,South-East Asia
+932,Nicaragua,2009,610.0,0.0,Americas
+933,Niger,2009,309675.0,2159.0,Africa
+934,Nigeria,2009,479845.0,7522.0,Africa
+935,Oman,2009,0.0,2.0,Eastern Mediterranean
+936,Pakistan,2009,167579.0,30.0,Eastern Mediterranean
+937,Panama,2009,778.0,0.0,Americas
+938,Papua New Guinea,2009,77758.0,604.0,Western Pacific
+939,Paraguay,2009,91.0,0.0,Americas
+940,Peru,2009,42645.0,2.0,Americas
+941,Philippines,2009,19316.0,24.0,Western Pacific
+942,Republic of Korea,2009,898.0,1.0,Western Pacific
+943,Rwanda,2009,698745.0,809.0,Africa
+944,Sao Tome and Principe,2009,6182.0,23.0,Africa
+945,Saudi Arabia,2009,58.0,0.0,Eastern Mediterranean
+946,Senegal,2009,165933.0,574.0,Africa
+947,Sierra Leone,2009,646808.0,1734.0,Africa
+948,Solomon Islands,2009,33002.0,53.0,Western Pacific
+949,Somalia,2009,25202.0,45.0,Eastern Mediterranean
+950,South Africa,2009,6072.0,45.0,Africa
+951,South Sudan,2009,14792.0,254.0,Africa
+952,Sri Lanka,2009,531.0,0.0,South-East Asia
+953,Sudan,2009,711462.0,1142.0,Eastern Mediterranean
+954,Suriname,2009,2380.0,0.0,Americas
+955,Syrian Arab Republic,2009,0.0,1.0,Eastern Mediterranean
+956,Tajikistan,2009,164.0,0.0,Europe
+957,Thailand,2009,29462.0,70.0,South-East Asia
+958,Timor-Leste,2009,47527.0,53.0,South-East Asia
+959,Togo,2009,391338.0,1556.0,Africa
+960,Turkey,2009,38.0,1.0,Europe
+961,Turkmenistan,2009,0.0,0.0,Europe
+962,Uganda,2009,1301337.0,6296.0,Africa
+963,United Arab Emirates,2009,14792.0,30.0,Eastern Mediterranean
+964,United Republic of Tanzania,2009,211.0,16776.0,Africa
+965,Uzbekistan,2009,0.0,0.0,Europe
+966,Vanuatu,2009,4189.0,2.0,Western Pacific
+967,Venezuela (Bolivarian Republic of),2009,35828.0,11.0,Americas
+968,Viet Nam,2009,16130.0,26.0,Western Pacific
+969,Yemen,2009,55446.0,38.0,Eastern Mediterranean
+970,Zambia,2009,14792.0,3862.0,Africa
+971,Zimbabwe,2009,114028.0,108.0,Africa
+972,Afghanistan,2008,81574.0,46.0,Eastern Mediterranean
+973,Algeria,2008,3.0,0.0,Africa
+974,Angola,2008,1377992.0,9465.0,Africa
+975,Argentina,2008,130.0,0.0,Americas
+976,Armenia,2008,0.0,0.0,Europe
+977,Azerbaijan,2008,72.0,0.0,Europe
+978,Bangladesh,2008,84690.0,154.0,South-East Asia
+979,Belize,2008,540.0,0.0,Americas
+980,Benin,2008,14792.0,918.0,Africa
+981,Bhutan,2008,329.0,2.0,South-East Asia
+982,Bolivia (Plurinational State of),2008,9748.0,0.0,Americas
+983,Botswana,2008,927.0,12.0,Africa
+984,Brazil,2008,315746.0,68.0,Americas
+985,Burkina Faso,2008,36514.0,7834.0,Africa
+986,Burundi,2008,876741.0,595.0,Africa
+987,Cabo Verde,2008,35.0,2.0,Africa
+988,Cambodia,2008,42124.0,209.0,Western Pacific
+989,Cameroon,2008,14792.0,7673.0,Africa
+990,Central African Republic,2008,14792.0,456.0,Africa
+991,Chad,2008,47757.0,1018.0,Africa
+992,China,2008,16650.0,23.0,Western Pacific
+993,Colombia,2008,80559.0,54.0,Americas
+994,Comoros,2008,14792.0,47.0,Africa
+995,Congo,2008,117291.0,143.0,Americas
+996,Costa Rica,2008,966.0,0.0,Americas
+997,Côte d'Ivoire,2008,3527.0,1249.0,Africa
+998,Democratic People's Republic of Korea,2008,16611.0,0.0,Western Pacific
+999,Democratic Republic of the Congo,2008,1618218.0,17940.0,Africa
+1000,Djibouti,2008,119.0,30.0,Eastern Mediterranean
+1001,Dominican Republic,2008,1840.0,11.0,Americas
+1002,Ecuador,2008,4891.0,5.0,Americas
+1003,Egypt,2008,0.0,2.0,Eastern Mediterranean
+1004,El Salvador,2008,33.0,0.0,Americas
+1005,Equatorial Guinea,2008,9503.0,4.0,Africa
+1006,Eritrea,2008,8764.0,19.0,Africa
+1007,Eswatini,2008,58.0,10.0,Africa
+1008,Ethiopia,2008,458561.0,1169.0,Africa
+1009,Gabon,2008,40701.0,156.0,Africa
+1010,Gambia,2008,39164.0,403.0,Africa
+1011,Georgia,2008,6.0,0.0,Europe
+1012,Ghana,2008,1094483.0,3889.0,Africa
+1013,Guatemala,2008,7198.0,0.0,Americas
+1014,Guinea,2008,33405.0,441.0,Africa
+1015,Guinea-Bissau,2008,11299.0,487.0,Africa
+1016,Guyana,2008,11815.0,11.0,Americas
+1017,Haiti,2008,36774.0,17.0,Americas
+1018,Honduras,2008,8368.0,2.0,Americas
+1019,India,2008,1532497.0,1055.0,South-East Asia
+1020,Indonesia,2008,349231.0,669.0,South-East Asia
+1021,Iran (Islamic Republic of),2008,8349.0,3.0,Eastern Mediterranean
+1022,Iraq,2008,2.0,0.0,Eastern Mediterranean
+1023,Kazakhstan,2008,14792.0,30.0,Europe
+1024,Kenya,2008,839903.0,30.0,Africa
+1025,Kyrgyzstan,2008,18.0,0.0,Europe
+1026,Lao People's Democratic Republic,2008,19347.0,11.0,Western Pacific
+1027,Liberia,2008,606952.0,345.0,Africa
+1028,Madagascar,2008,93234.0,355.0,Africa
+1029,Malawi,2008,14792.0,8048.0,Africa
+1030,Malaysia,2008,6071.0,20.0,Western Pacific
+1031,Mali,2008,14792.0,1227.0,Africa
+1032,Mauritania,2008,302.0,30.0,Africa
+1033,Mauritius,2008,14792.0,30.0,Africa
+1034,Mexico,2008,2357.0,0.0,Americas
+1035,Morocco,2008,0.0,1.0,Eastern Mediterranean
+1036,Mozambique,2008,120259.0,4424.0,Africa
+1037,Myanmar,2008,447073.0,1087.0,South-East Asia
+1038,Namibia,2008,1092.0,152.0,Africa
+1039,Nepal,2008,3888.0,30.0,South-East Asia
+1040,Nicaragua,2008,762.0,0.0,Americas
+1041,Niger,2008,496858.0,2461.0,Africa
+1042,Nigeria,2008,143079.0,8677.0,Africa
+1043,Oman,2008,8.0,2.0,Eastern Mediterranean
+1044,Pakistan,2008,104454.0,30.0,Eastern Mediterranean
+1045,Panama,2008,744.0,1.0,Americas
+1046,Papua New Guinea,2008,84452.0,628.0,Western Pacific
+1047,Paraguay,2008,348.0,0.0,Americas
+1048,Peru,2008,44522.0,2.0,Americas
+1049,Philippines,2008,23655.0,56.0,Western Pacific
+1050,Republic of Korea,2008,1052.0,0.0,Western Pacific
+1051,Rwanda,2008,316242.0,566.0,Africa
+1052,Sao Tome and Principe,2008,6258.0,16.0,Africa
+1053,Saudi Arabia,2008,61.0,0.0,Eastern Mediterranean
+1054,Senegal,2008,241926.0,741.0,Africa
+1055,Sierra Leone,2008,154459.0,871.0,Africa
+1056,Solomon Islands,2008,40535.0,21.0,Western Pacific
+1057,Somalia,2008,36905.0,49.0,Eastern Mediterranean
+1058,South Africa,2008,7796.0,43.0,Africa
+1059,South Sudan,2008,52011.0,263.0,Africa
+1060,Sri Lanka,2008,649.0,0.0,South-East Asia
+1061,Sudan,2008,569296.0,1125.0,Eastern Mediterranean
+1062,Suriname,2008,2709.0,0.0,Americas
+1063,Syrian Arab Republic,2008,0.0,1.0,Eastern Mediterranean
+1064,Tajikistan,2008,318.0,0.0,Europe
+1065,Thailand,2008,28569.0,101.0,South-East Asia
+1066,Timor-Leste,2008,51260.0,33.0,South-East Asia
+1067,Togo,2008,344862.0,2663.0,Africa
+1068,Turkey,2008,166.0,3.0,Europe
+1069,Turkmenistan,2008,0.0,0.0,Europe
+1070,Uganda,2008,979298.0,2372.0,Africa
+1071,United Arab Emirates,2008,14792.0,30.0,Eastern Mediterranean
+1072,United Republic of Tanzania,2008,4508.0,12497.0,Africa
+1073,Uzbekistan,2008,7.0,0.0,Europe
+1074,Vanuatu,2008,3765.0,4.0,Western Pacific
+1075,Venezuela (Bolivarian Republic of),2008,32037.0,9.0,Americas
+1076,Viet Nam,2008,11355.0,25.0,Western Pacific
+1077,Yemen,2008,44206.0,30.0,Eastern Mediterranean
+1078,Zambia,2008,14792.0,3781.0,Africa
+1079,Zimbabwe,2008,32788.0,232.0,Africa
+1080,Afghanistan,2007,92202.0,25.0,Eastern Mediterranean
+1081,Algeria,2007,288.0,30.0,Africa
+1082,Angola,2007,1533485.0,9812.0,Africa
+1083,Argentina,2007,387.0,0.0,Americas
+1084,Armenia,2007,0.0,0.0,Europe
+1085,Azerbaijan,2007,108.0,0.0,Europe
+1086,Bangladesh,2007,59866.0,228.0,South-East Asia
+1087,Belize,2007,845.0,0.0,Americas
+1088,Benin,2007,14792.0,1290.0,Africa
+1089,Bhutan,2007,793.0,2.0,South-East Asia
+1090,Bolivia (Plurinational State of),2007,14610.0,0.0,Americas
+1091,Botswana,2007,390.0,6.0,Africa
+1092,Brazil,2007,458652.0,93.0,Americas
+1093,Burkina Faso,2007,44246.0,6472.0,Africa
+1094,Burundi,2007,1101644.0,167.0,Africa
+1095,Cabo Verde,2007,18.0,2.0,Africa
+1096,Cambodia,2007,42518.0,241.0,Western Pacific
+1097,Cameroon,2007,14792.0,1811.0,Africa
+1098,Central African Republic,2007,14792.0,578.0,Africa
+1099,Chad,2007,48288.0,617.0,Africa
+1100,China,2007,29304.0,18.0,Western Pacific
+1101,Colombia,2007,128462.0,68.0,Americas
+1102,Comoros,2007,14792.0,20.0,Africa
+1103,Congo,2007,103213.0,113.0,Americas
+1104,Costa Rica,2007,1223.0,0.0,Americas
+1105,Côte d'Ivoire,2007,14792.0,797.0,Africa
+1106,Democratic People's Republic of Korea,2007,4345.0,0.0,Western Pacific
+1107,Democratic Republic of the Congo,2007,740858.0,14372.0,Africa
+1108,Djibouti,2007,210.0,1.0,Eastern Mediterranean
+1109,Dominican Republic,2007,2711.0,17.0,Americas
+1110,Ecuador,2007,8464.0,8.0,Americas
+1111,Egypt,2007,0.0,0.0,Eastern Mediterranean
+1112,El Salvador,2007,40.0,0.0,Americas
+1113,Equatorial Guinea,2007,6287.0,30.0,Africa
+1114,Eritrea,2007,15565.0,42.0,Africa
+1115,Eswatini,2007,84.0,17.0,Africa
+1116,Ethiopia,2007,451816.0,991.0,Africa
+1117,Gabon,2007,45186.0,216.0,Africa
+1118,Gambia,2007,14792.0,424.0,Africa
+1119,Georgia,2007,24.0,0.0,Europe
+1120,Ghana,2007,476484.0,4622.0,Africa
+1121,Guatemala,2007,15382.0,3.0,Americas
+1122,Guinea,2007,44518.0,472.0,Africa
+1123,Guinea-Bissau,2007,14284.0,370.0,Africa
+1124,Guyana,2007,11656.0,20.0,Americas
+1125,Haiti,2007,29825.0,28.0,Americas
+1126,Honduras,2007,10512.0,2.0,Americas
+1127,India,2007,1508927.0,1311.0,South-East Asia
+1128,Indonesia,2007,311789.0,30.0,South-East Asia
+1129,Iran (Islamic Republic of),2007,15712.0,3.0,Eastern Mediterranean
+1130,Iraq,2007,3.0,0.0,Eastern Mediterranean
+1131,Kazakhstan,2007,14792.0,30.0,Europe
+1132,Kenya,2007,14792.0,30.0,Africa
+1133,Kyrgyzstan,2007,96.0,0.0,Europe
+1134,Lao People's Democratic Republic,2007,17458.0,14.0,Western Pacific
+1135,Liberia,2007,492272.0,310.0,Africa
+1136,Madagascar,2007,48497.0,428.0,Africa
+1137,Malawi,2007,14792.0,7486.0,Africa
+1138,Malaysia,2007,4048.0,15.0,Western Pacific
+1139,Mali,2007,14792.0,1782.0,Africa
+1140,Mauritania,2007,14792.0,142.0,Africa
+1141,Mauritius,2007,14792.0,30.0,Africa
+1142,Mexico,2007,2361.0,0.0,Americas
+1143,Morocco,2007,0.0,2.0,Eastern Mediterranean
+1144,Mozambique,2007,141663.0,5816.0,Africa
+1145,Myanmar,2007,373958.0,1261.0,South-East Asia
+1146,Namibia,2007,4242.0,181.0,Africa
+1147,Nepal,2007,5621.0,3.0,South-East Asia
+1148,Nicaragua,2007,1356.0,0.0,Americas
+1149,Niger,2007,249027.0,1358.0,Africa
+1150,Nigeria,2007,14792.0,10289.0,Africa
+1151,Oman,2007,4.0,0.0,Eastern Mediterranean
+1152,Pakistan,2007,128570.0,24.0,Eastern Mediterranean
+1153,Panama,2007,1281.0,1.0,Americas
+1154,Papua New Guinea,2007,86955.0,559.0,Western Pacific
+1155,Paraguay,2007,1341.0,0.0,Americas
+1156,Peru,2007,50797.0,2.0,Americas
+1157,Philippines,2007,36235.0,73.0,Western Pacific
+1158,Republic of Korea,2007,2227.0,1.0,Western Pacific
+1159,Rwanda,2007,382686.0,1772.0,Africa
+1160,Sao Tome and Principe,2007,2421.0,3.0,Africa
+1161,Saudi Arabia,2007,467.0,0.0,Eastern Mediterranean
+1162,Senegal,2007,118332.0,1935.0,Africa
+1163,Sierra Leone,2007,14792.0,324.0,Africa
+1164,Solomon Islands,2007,65404.0,15.0,Western Pacific
+1165,Somalia,2007,16675.0,45.0,Eastern Mediterranean
+1166,South Africa,2007,6327.0,37.0,Africa
+1167,South Sudan,2007,14792.0,30.0,Africa
+1168,Sri Lanka,2007,198.0,1.0,South-East Asia
+1169,Sudan,2007,686908.0,1254.0,Eastern Mediterranean
+1170,Suriname,2007,1741.0,1.0,Americas
+1171,Syrian Arab Republic,2007,0.0,1.0,Eastern Mediterranean
+1172,Tajikistan,2007,635.0,0.0,Europe
+1173,Thailand,2007,33178.0,97.0,South-East Asia
+1174,Timor-Leste,2007,52813.0,60.0,South-East Asia
+1175,Togo,2007,221110.0,1236.0,Africa
+1176,Turkey,2007,313.0,1.0,Europe
+1177,Turkmenistan,2007,0.0,0.0,Europe
+1178,Uganda,2007,1045378.0,7003.0,Africa
+1179,United Arab Emirates,2007,14792.0,30.0,Eastern Mediterranean
+1180,United Republic of Tanzania,2007,1845917.0,12593.0,Africa
+1181,Uzbekistan,2007,30.0,1.0,Europe
+1182,Vanuatu,2007,5471.0,5.0,Western Pacific
+1183,Venezuela (Bolivarian Republic of),2007,41749.0,16.0,Americas
+1184,Viet Nam,2007,16389.0,20.0,Western Pacific
+1185,Yemen,2007,67677.0,30.0,Eastern Mediterranean
+1186,Zambia,2007,14792.0,6183.0,Africa
+1187,Zimbabwe,2007,116518.0,401.0,Africa
+1188,Afghanistan,2006,86129.0,30.0,Eastern Mediterranean
+1189,Algeria,2006,117.0,30.0,Africa
+1190,Angola,2006,1082398.0,10220.0,Africa
+1191,Argentina,2006,212.0,0.0,Americas
+1192,Armenia,2006,0.0,0.0,Europe
+1193,Azerbaijan,2006,143.0,0.0,Europe
+1194,Bangladesh,2006,32857.0,508.0,South-East Asia
+1195,Belize,2006,844.0,1.0,Americas
+1196,Benin,2006,14792.0,1226.0,Africa
+1197,Bhutan,2006,1868.0,7.0,South-East Asia
+1198,Bolivia (Plurinational State of),2006,19725.0,0.0,Americas
+1199,Botswana,2006,2548.0,40.0,Africa
+1200,Brazil,2006,549469.0,110.0,Americas
+1201,Burkina Faso,2006,44265.0,8083.0,Africa
+1202,Burundi,2006,791731.0,434.0,Africa
+1203,Cabo Verde,2006,80.0,8.0,Africa
+1204,Cambodia,2006,78696.0,396.0,Western Pacific
+1205,Cameroon,2006,14792.0,930.0,Africa
+1206,Central African Republic,2006,14792.0,865.0,Africa
+1207,Chad,2006,45155.0,837.0,Africa
+1208,China,2006,35383.0,37.0,Western Pacific
+1209,Colombia,2006,120096.0,77.0,Americas
+1210,Comoros,2006,20559.0,56.0,Africa
+1211,Congo,2006,14792.0,30.0,Americas
+1212,Costa Rica,2006,2903.0,0.0,Americas
+1213,Côte d'Ivoire,2006,14792.0,30.0,Africa
+1214,Democratic People's Republic of Korea,2006,12983.0,30.0,Western Pacific
+1215,Democratic Republic of the Congo,2006,2050.0,12970.0,Africa
+1216,Djibouti,2006,1796.0,29.0,Eastern Mediterranean
+1217,Dominican Republic,2006,3525.0,10.0,Americas
+1218,Ecuador,2006,9863.0,9.0,Americas
+1219,Egypt,2006,0.0,0.0,Eastern Mediterranean
+1220,El Salvador,2006,49.0,0.0,Americas
+1221,Equatorial Guinea,2006,14792.0,30.0,Africa
+1222,Eritrea,2006,6541.0,47.0,Africa
+1223,Eswatini,2006,155.0,27.0,Africa
+1224,Ethiopia,2006,447780.0,1357.0,Africa
+1225,Gabon,2006,33458.0,238.0,Africa
+1226,Gambia,2006,14792.0,150.0,Africa
+1227,Georgia,2006,59.0,0.0,Europe
+1228,Ghana,2006,472255.0,3125.0,Africa
+1229,Guatemala,2006,31093.0,2.0,Americas
+1230,Guinea,2006,54227.0,30.0,Africa
+1231,Guinea-Bissau,2006,15120.0,507.0,Africa
+1232,Guyana,2006,21064.0,20.0,Americas
+1233,Haiti,2006,32739.0,32.0,Americas
+1234,Honduras,2006,11947.0,0.0,Americas
+1235,India,2006,1785109.0,1708.0,South-East Asia
+1236,Indonesia,2006,347597.0,494.0,South-East Asia
+1237,Iran (Islamic Republic of),2006,15909.0,1.0,Eastern Mediterranean
+1238,Iraq,2006,24.0,0.0,Eastern Mediterranean
+1239,Kazakhstan,2006,14792.0,30.0,Europe
+1240,Kenya,2006,14792.0,40079.0,Africa
+1241,Kyrgyzstan,2006,317.0,0.0,Europe
+1242,Lao People's Democratic Republic,2006,18382.0,21.0,Western Pacific
+1243,Liberia,2006,761415.0,877.0,Africa
+1244,Madagascar,2006,5689.0,441.0,Africa
+1245,Malawi,2006,14792.0,6464.0,Africa
+1246,Malaysia,2006,5294.0,21.0,Western Pacific
+1247,Mali,2006,14792.0,1914.0,Africa
+1248,Mauritania,2006,1061.0,67.0,Africa
+1249,Mauritius,2006,14792.0,30.0,Africa
+1250,Mexico,2006,2514.0,0.0,Americas
+1251,Morocco,2006,0.0,2.0,Eastern Mediterranean
+1252,Mozambique,2006,14792.0,30.0,Africa
+1253,Myanmar,2006,203071.0,1647.0,South-East Asia
+1254,Namibia,2006,27690.0,571.0,Africa
+1255,Nepal,2006,4969.0,42.0,South-East Asia
+1256,Nicaragua,2006,3114.0,1.0,Americas
+1257,Niger,2006,3956.0,1150.0,Africa
+1258,Nigeria,2006,14792.0,6586.0,Africa
+1259,Oman,2006,0.0,0.0,Eastern Mediterranean
+1260,Pakistan,2006,124910.0,9.0,Eastern Mediterranean
+1261,Panama,2006,1663.0,1.0,Americas
+1262,Papua New Guinea,2006,93938.0,668.0,Western Pacific
+1263,Paraguay,2006,823.0,0.0,Americas
+1264,Peru,2006,64925.0,6.0,Americas
+1265,Philippines,2006,35405.0,124.0,Western Pacific
+1266,Republic of Korea,2006,2051.0,0.0,Western Pacific
+1267,Rwanda,2006,573686.0,2486.0,Africa
+1268,Sao Tome and Principe,2006,5146.0,26.0,Africa
+1269,Saudi Arabia,2006,1278.0,0.0,Eastern Mediterranean
+1270,Senegal,2006,48070.0,1678.0,Africa
+1271,Sierra Leone,2006,4932.0,90.0,Africa
+1272,Solomon Islands,2006,75337.0,12.0,Western Pacific
+1273,Somalia,2006,16430.0,58.0,Eastern Mediterranean
+1274,South Africa,2006,12098.0,87.0,Africa
+1275,South Sudan,2006,14792.0,30.0,Africa
+1276,Sri Lanka,2006,591.0,1.0,South-East Asia
+1277,Sudan,2006,721233.0,1193.0,Eastern Mediterranean
+1278,Suriname,2006,3289.0,1.0,Americas
+1279,Syrian Arab Republic,2006,0.0,2.0,Eastern Mediterranean
+1280,Tajikistan,2006,1344.0,0.0,Europe
+1281,Thailand,2006,30294.0,113.0,South-East Asia
+1282,Timor-Leste,2006,37896.0,68.0,South-East Asia
+1283,Togo,2006,14792.0,819.0,Africa
+1284,Turkey,2006,796.0,0.0,Europe
+1285,Turkmenistan,2006,1.0,0.0,Europe
+1286,Uganda,2006,867398.0,4252.0,Africa
+1287,United Arab Emirates,2006,14792.0,30.0,Eastern Mediterranean
+1288,United Republic of Tanzania,2006,1928296.0,20962.0,Africa
+1289,Uzbekistan,2006,73.0,0.0,Europe
+1290,Vanuatu,2006,8055.0,1.0,Western Pacific
+1291,Venezuela (Bolivarian Republic of),2006,37062.0,11.0,Americas
+1292,Viet Nam,2006,22637.0,41.0,Western Pacific
+1293,Yemen,2006,55000.0,73.0,Eastern Mediterranean
+1294,Zambia,2006,14792.0,6484.0,Africa
+1295,Zimbabwe,2006,19702.0,802.0,Africa
+1296,Afghanistan,2005,116444.0,0.0,Eastern Mediterranean
+1297,Algeria,2005,299.0,30.0,Africa
+1298,Angola,2005,889572.0,13768.0,Africa
+1299,Argentina,2005,252.0,0.0,Americas
+1300,Armenia,2005,7.0,0.0,Europe
+1301,Azerbaijan,2005,242.0,0.0,Europe
+1302,Bangladesh,2005,48121.0,501.0,South-East Asia
+1303,Belize,2005,1549.0,0.0,Americas
+1304,Benin,2005,14792.0,322.0,Africa
+1305,Bhutan,2005,1825.0,5.0,South-East Asia
+1306,Bolivia (Plurinational State of),2005,21442.0,0.0,Americas
+1307,Botswana,2005,670.0,11.0,Africa
+1308,Brazil,2005,606067.0,123.0,Americas
+1309,Burkina Faso,2005,21335.0,5224.0,Africa
+1310,Burundi,2005,327464.0,776.0,Africa
+1311,Cabo Verde,2005,68.0,2.0,Africa
+1312,Cambodia,2005,49436.0,296.0,Western Pacific
+1313,Cameroon,2005,14792.0,836.0,Africa
+1314,Central African Republic,2005,45973.0,668.0,Africa
+1315,Chad,2005,31668.0,558.0,Africa
+1316,China,2005,21936.0,48.0,Western Pacific
+1317,Colombia,2005,121629.0,87.0,Americas
+1318,Comoros,2005,6086.0,92.0,Africa
+1319,Congo,2005,67.0,30.0,Americas
+1320,Costa Rica,2005,3541.0,0.0,Americas
+1321,Côte d'Ivoire,2005,67.0,30.0,Africa
+1322,Democratic People's Republic of Korea,2005,11315.0,30.0,Western Pacific
+1323,Democratic Republic of the Congo,2005,2971.0,15322.0,Africa
+1324,Djibouti,2005,413.0,30.0,Eastern Mediterranean
+1325,Dominican Republic,2005,3837.0,16.0,Americas
+1326,Ecuador,2005,17050.0,22.0,Americas
+1327,Egypt,2005,0.0,30.0,Eastern Mediterranean
+1328,El Salvador,2005,67.0,0.0,Americas
+1329,Equatorial Guinea,2005,14792.0,30.0,Africa
+1330,Eritrea,2005,9073.0,49.0,Africa
+1331,Eswatini,2005,279.0,17.0,Africa
+1332,Ethiopia,2005,538942.0,1086.0,Africa
+1333,Gabon,2005,70644.0,353.0,Africa
+1334,Gambia,2005,14792.0,426.0,Africa
+1335,Georgia,2005,155.0,0.0,Europe
+1336,Ghana,2005,655093.0,2037.0,Africa
+1337,Guatemala,2005,39571.0,4.0,Americas
+1338,Guinea,2005,50452.0,490.0,Africa
+1339,Guinea-Bissau,2005,14659.0,565.0,Africa
+1340,Guyana,2005,38984.0,33.0,Americas
+1341,Haiti,2005,21778.0,29.0,Americas
+1342,Honduras,2005,15943.0,1.0,Americas
+1343,India,2005,1816569.0,963.0,South-East Asia
+1344,Indonesia,2005,437323.0,88.0,South-East Asia
+1345,Iran (Islamic Republic of),2005,18966.0,1.0,Eastern Mediterranean
+1346,Iraq,2005,47.0,0.0,Eastern Mediterranean
+1347,Kazakhstan,2005,14792.0,30.0,Europe
+1348,Kenya,2005,14792.0,44328.0,Africa
+1349,Kyrgyzstan,2005,226.0,0.0,Europe
+1350,Lao People's Democratic Republic,2005,13615.0,77.0,Western Pacific
+1351,Liberia,2005,44875.0,41.0,Africa
+1352,Madagascar,2005,6753.0,699.0,Africa
+1353,Malawi,2005,14792.0,5070.0,Africa
+1354,Malaysia,2005,5569.0,33.0,Western Pacific
+1355,Mali,2005,14792.0,1285.0,Africa
+1356,Mauritania,2005,14792.0,30.0,Africa
+1357,Mauritius,2005,14792.0,30.0,Africa
+1358,Mexico,2005,2967.0,0.0,Americas
+1359,Morocco,2005,0.0,1.0,Eastern Mediterranean
+1360,Mozambique,2005,14792.0,30.0,Africa
+1361,Myanmar,2005,165737.0,1707.0,South-East Asia
+1362,Namibia,2005,23339.0,1325.0,Africa
+1363,Nepal,2005,5050.0,10.0,South-East Asia
+1364,Nicaragua,2005,6642.0,6.0,Americas
+1365,Niger,2005,56043.0,2060.0,Africa
+1366,Nigeria,2005,14792.0,6494.0,Africa
+1367,Oman,2005,0.0,0.0,Eastern Mediterranean
+1368,Pakistan,2005,127826.0,52.0,Eastern Mediterranean
+1369,Panama,2005,3667.0,1.0,Americas
+1370,Papua New Guinea,2005,92957.0,725.0,Western Pacific
+1371,Paraguay,2005,376.0,0.0,Americas
+1372,Peru,2005,87699.0,4.0,Americas
+1373,Philippines,2005,46342.0,145.0,Western Pacific
+1374,Republic of Korea,2005,1369.0,0.0,Western Pacific
+1375,Rwanda,2005,683769.0,2581.0,Africa
+1376,Sao Tome and Principe,2005,18139.0,85.0,Africa
+1377,Saudi Arabia,2005,1059.0,0.0,Eastern Mediterranean
+1378,Senegal,2005,33160.0,1587.0,Africa
+1379,Sierra Leone,2005,4808.0,50.0,Africa
+1380,Solomon Islands,2005,76390.0,38.0,Western Pacific
+1381,Somalia,2005,12516.0,15.0,Eastern Mediterranean
+1382,South Africa,2005,7755.0,63.0,Africa
+1383,South Sudan,2005,14792.0,30.0,Africa
+1384,Sri Lanka,2005,1640.0,0.0,South-East Asia
+1385,Sudan,2005,628417.0,1789.0,Eastern Mediterranean
+1386,Suriname,2005,9131.0,1.0,Americas
+1387,Syrian Arab Republic,2005,0.0,2.0,Eastern Mediterranean
+1388,Tajikistan,2005,2309.0,0.0,Europe
+1389,Thailand,2005,29782.0,161.0,South-East Asia
+1390,Timor-Leste,2005,43093.0,71.0,South-East Asia
+1391,Togo,2005,14792.0,1024.0,Africa
+1392,Turkey,2005,2084.0,0.0,Europe
+1393,Turkmenistan,2005,1.0,0.0,Europe
+1394,Uganda,2005,1104310.0,30.0,Africa
+1395,United Arab Emirates,2005,14792.0,30.0,Eastern Mediterranean
+1396,United Republic of Tanzania,2005,2764049.0,18322.0,Africa
+1397,Uzbekistan,2005,102.0,0.0,Europe
+1398,Vanuatu,2005,9834.0,5.0,Western Pacific
+1399,Venezuela (Bolivarian Republic of),2005,45049.0,17.0,Americas
+1400,Viet Nam,2005,19496.0,18.0,Western Pacific
+1401,Yemen,2005,44150.0,30.0,Eastern Mediterranean
+1402,Zambia,2005,14792.0,7737.0,Africa
+1403,Zimbabwe,2005,18954.0,1916.0,Africa
+1404,Afghanistan,2004,242022.0,30.0,Eastern Mediterranean
+1405,Algeria,2004,163.0,30.0,Africa
+1406,Angola,2004,14792.0,12459.0,Africa
+1407,Argentina,2004,115.0,0.0,Americas
+1408,Armenia,2004,47.0,0.0,Europe
+1409,Azerbaijan,2004,386.0,0.0,Europe
+1410,Bangladesh,2004,58894.0,505.0,South-East Asia
+1411,Belize,2004,1066.0,1.0,Americas
+1412,Benin,2004,14792.0,944.0,Africa
+1413,Bhutan,2004,2670.0,7.0,South-East Asia
+1414,Bolivia (Plurinational State of),2004,14910.0,3.0,Americas
+1415,Botswana,2004,198.0,19.0,Africa
+1416,Brazil,2004,465004.0,102.0,Americas
+1417,Burkina Faso,2004,18256.0,4205.0,Africa
+1418,Burundi,2004,363395.0,689.0,Africa
+1419,Cabo Verde,2004,45.0,4.0,Africa
+1420,Cambodia,2004,59745.0,382.0,Western Pacific
+1421,Cameroon,2004,14792.0,30.0,Africa
+1422,Central African Republic,2004,46869.0,859.0,Africa
+1423,Chad,2004,1360.0,13.0,Africa
+1424,China,2004,27197.0,31.0,Western Pacific
+1425,Colombia,2004,142241.0,126.0,Americas
+1426,Comoros,2004,12874.0,28.0,Africa
+1427,Congo,2004,293.0,30.0,Americas
+1428,Costa Rica,2004,1289.0,0.0,Americas
+1429,Côte d'Ivoire,2004,293.0,30.0,Africa
+1430,Democratic People's Republic of Korea,2004,27090.0,30.0,Western Pacific
+1431,Democratic Republic of the Congo,2004,2684.0,13613.0,Africa
+1432,Djibouti,2004,122.0,30.0,Eastern Mediterranean
+1433,Dominican Republic,2004,2355.0,16.0,Americas
+1434,Ecuador,2004,28730.0,37.0,Americas
+1435,Egypt,2004,0.0,30.0,Eastern Mediterranean
+1436,El Salvador,2004,112.0,0.0,Americas
+1437,Equatorial Guinea,2004,14792.0,30.0,Africa
+1438,Eritrea,2004,4119.0,24.0,Africa
+1439,Eswatini,2004,574.0,28.0,Africa
+1440,Ethiopia,2004,578904.0,3327.0,Africa
+1441,Gabon,2004,70075.0,466.0,Africa
+1442,Gambia,2004,14792.0,153.0,Africa
+1443,Georgia,2004,257.0,0.0,Europe
+1444,Ghana,2004,475441.0,1575.0,Africa
+1445,Guatemala,2004,28955.0,2.0,Americas
+1446,Guinea,2004,103069.0,528.0,Africa
+1447,Guinea-Bissau,2004,14792.0,565.0,Africa
+1448,Guyana,2004,28866.0,38.0,Americas
+1449,Haiti,2004,10802.0,24.0,Americas
+1450,Honduras,2004,17134.0,0.0,Americas
+1451,India,2004,1915363.0,949.0,South-East Asia
+1452,Indonesia,2004,304936.0,508.0,South-East Asia
+1453,Iran (Islamic Republic of),2004,13821.0,1.0,Eastern Mediterranean
+1454,Iraq,2004,155.0,30.0,Eastern Mediterranean
+1455,Kazakhstan,2004,14792.0,30.0,Europe
+1456,Kenya,2004,28328.0,25403.0,Africa
+1457,Kyrgyzstan,2004,93.0,0.0,Europe
+1458,Lao People's Democratic Republic,2004,16183.0,105.0,Western Pacific
+1459,Liberia,2004,14792.0,30.0,Africa
+1460,Madagascar,2004,7638.0,715.0,Africa
+1461,Malawi,2004,14792.0,3457.0,Africa
+1462,Malaysia,2004,6154.0,35.0,Western Pacific
+1463,Mali,2004,14792.0,1012.0,Africa
+1464,Mauritania,2004,14792.0,30.0,Africa
+1465,Mauritius,2004,14792.0,30.0,Africa
+1466,Mexico,2004,3406.0,0.0,Americas
+1467,Morocco,2004,1.0,30.0,Eastern Mediterranean
+1468,Mozambique,2004,14792.0,30.0,Africa
+1469,Myanmar,2004,152070.0,1982.0,South-East Asia
+1470,Namibia,2004,36043.0,1185.0,Africa
+1471,Nepal,2004,4895.0,7.0,South-East Asia
+1472,Nicaragua,2004,6897.0,1.0,Americas
+1473,Niger,2004,76030.0,1333.0,Africa
+1474,Nigeria,2004,14792.0,6032.0,Africa
+1475,Oman,2004,0.0,30.0,Eastern Mediterranean
+1476,Pakistan,2004,126719.0,30.0,Eastern Mediterranean
+1477,Panama,2004,5095.0,2.0,Americas
+1478,Papua New Guinea,2004,91055.0,619.0,Western Pacific
+1479,Paraguay,2004,694.0,0.0,Americas
+1480,Peru,2004,93581.0,6.0,Americas
+1481,Philippines,2004,50850.0,167.0,Western Pacific
+1482,Republic of Korea,2004,864.0,0.0,Western Pacific
+1483,Rwanda,2004,589315.0,2362.0,Africa
+1484,Sao Tome and Principe,2004,46486.0,169.0,Africa
+1485,Saudi Arabia,2004,1232.0,0.0,Eastern Mediterranean
+1486,Senegal,2004,22234.0,1524.0,Africa
+1487,Sierra Leone,2004,2206.0,126.0,Africa
+1488,Solomon Islands,2004,90297.0,51.0,Western Pacific
+1489,Somalia,2004,11436.0,79.0,Eastern Mediterranean
+1490,South Africa,2004,13399.0,88.0,Africa
+1491,South Sudan,2004,14792.0,30.0,Africa
+1492,Sri Lanka,2004,3720.0,1.0,South-East Asia
+1493,Sudan,2004,537899.0,1814.0,Eastern Mediterranean
+1494,Suriname,2004,8378.0,7.0,Americas
+1495,Syrian Arab Republic,2004,1.0,30.0,Eastern Mediterranean
+1496,Tajikistan,2004,3588.0,0.0,Europe
+1497,Thailand,2004,26690.0,230.0,South-East Asia
+1498,Timor-Leste,2004,39164.0,65.0,South-East Asia
+1499,Togo,2004,14792.0,1183.0,Africa
+1500,Turkey,2004,5302.0,0.0,Europe
+1501,Turkmenistan,2004,3.0,0.0,Europe
+1502,Uganda,2004,879032.0,30.0,Africa
+1503,United Arab Emirates,2004,14792.0,30.0,Eastern Mediterranean
+1504,United Republic of Tanzania,2004,2502382.0,19859.0,Africa
+1505,Uzbekistan,2004,66.0,0.0,Europe
+1506,Vanuatu,2004,14653.0,3.0,Western Pacific
+1507,Venezuela (Bolivarian Republic of),2004,46655.0,35.0,Americas
+1508,Viet Nam,2004,24909.0,34.0,Western Pacific
+1509,Yemen,2004,48756.0,30.0,Eastern Mediterranean
+1510,Zambia,2004,14792.0,8289.0,Africa
+1511,Zimbabwe,2004,16990.0,1809.0,Africa
+1512,Afghanistan,2003,360940.0,30.0,Eastern Mediterranean
+1513,Algeria,2003,427.0,30.0,Africa
+1514,Angola,2003,14792.0,38598.0,Africa
+1515,Argentina,2003,122.0,1.0,Americas
+1516,Armenia,2003,29.0,0.0,Europe
+1517,Azerbaijan,2003,482.0,0.0,Europe
+1518,Bangladesh,2003,54654.0,574.0,South-East Asia
+1519,Belize,2003,1084.0,30.0,Americas
+1520,Benin,2003,14792.0,560.0,Africa
+1521,Bhutan,2003,3806.0,14.0,South-East Asia
+1522,Bolivia (Plurinational State of),2003,20343.0,1.0,Americas
+1523,Botswana,2003,591.0,18.0,Africa
+1524,Brazil,2003,408886.0,104.0,Americas
+1525,Burkina Faso,2003,14792.0,4860.0,Africa
+1526,Burundi,2003,353459.0,425.0,Africa
+1527,Cabo Verde,2003,68.0,4.0,Africa
+1528,Cambodia,2003,71265.0,492.0,Western Pacific
+1529,Cameroon,2003,14792.0,30.0,Africa
+1530,Central African Republic,2003,37896.0,417.0,Africa
+1531,Chad,2003,45195.0,1021.0,Africa
+1532,China,2003,28491.0,52.0,Western Pacific
+1533,Colombia,2003,180956.0,118.0,Americas
+1534,Comoros,2003,867398.0,30.0,Africa
+1535,Congo,2003,1633.0,30.0,Americas
+1536,Costa Rica,2003,718.0,0.0,Americas
+1537,Côte d'Ivoire,2003,1585.0,30.0,Africa
+1538,Democratic People's Republic of Korea,2003,16538.0,30.0,Western Pacific
+1539,Democratic Republic of the Congo,2003,2438.0,989.0,Africa
+1540,Djibouti,2003,5036.0,30.0,Eastern Mediterranean
+1541,Dominican Republic,2003,1529.0,12.0,Americas
+1542,Ecuador,2003,52065.0,46.0,Americas
+1543,Egypt,2003,0.0,30.0,Eastern Mediterranean
+1544,El Salvador,2003,85.0,0.0,Americas
+1545,Equatorial Guinea,2003,14792.0,30.0,Africa
+1546,Eritrea,2003,10346.0,79.0,Africa
+1547,Eswatini,2003,342.0,30.0,Africa
+1548,Ethiopia,2003,463797.0,2138.0,Africa
+1549,Gabon,2003,58212.0,692.0,Africa
+1550,Gambia,2003,14792.0,192.0,Africa
+1551,Georgia,2003,316.0,0.0,Europe
+1552,Ghana,2003,14792.0,2103.0,Africa
+1553,Guatemala,2003,31127.0,0.0,Americas
+1554,Guinea,2003,107925.0,586.0,Africa
+1555,Guinea-Bissau,2003,14792.0,1137.0,Africa
+1556,Guyana,2003,27627.0,44.0,Americas
+1557,Haiti,2003,14792.0,109.0,Americas
+1558,Honduras,2003,14063.0,0.0,Americas
+1559,India,2003,1869403.0,1006.0,South-East Asia
+1560,Indonesia,2003,223074.0,30.0,South-East Asia
+1561,Iran (Islamic Republic of),2003,23562.0,5.0,Eastern Mediterranean
+1562,Iraq,2003,347.0,30.0,Eastern Mediterranean
+1563,Kazakhstan,2003,14792.0,30.0,Europe
+1564,Kenya,2003,39383.0,51842.0,Africa
+1565,Kyrgyzstan,2003,468.0,0.0,Europe
+1566,Lao People's Democratic Republic,2003,18894.0,187.0,Western Pacific
+1567,Liberia,2003,14792.0,30.0,Africa
+1568,Madagascar,2003,6909.0,817.0,Africa
+1569,Malawi,2003,14792.0,4767.0,Africa
+1570,Malaysia,2003,6338.0,21.0,Western Pacific
+1571,Mali,2003,14792.0,1309.0,Africa
+1572,Mauritania,2003,14792.0,30.0,Africa
+1573,Mauritius,2003,14792.0,30.0,Africa
+1574,Mexico,2003,3819.0,0.0,Americas
+1575,Morocco,2003,4.0,30.0,Eastern Mediterranean
+1576,Mozambique,2003,14792.0,30.0,Africa
+1577,Myanmar,2003,177530.0,2476.0,South-East Asia
+1578,Namibia,2003,20295.0,1106.0,Africa
+1579,Nepal,2003,9506.0,5.0,South-East Asia
+1580,Nicaragua,2003,6717.0,7.0,Americas
+1581,Niger,2003,56460.0,2248.0,Africa
+1582,Nigeria,2003,14792.0,5343.0,Africa
+1583,Oman,2003,6.0,30.0,Eastern Mediterranean
+1584,Pakistan,2003,125152.0,30.0,Eastern Mediterranean
+1585,Panama,2003,4500.0,4.0,Americas
+1586,Papua New Guinea,2003,72620.0,537.0,Western Pacific
+1587,Paraguay,2003,1392.0,0.0,Americas
+1588,Peru,2003,88408.0,9.0,Americas
+1589,Philippines,2003,48441.0,162.0,Western Pacific
+1590,Republic of Korea,2003,1171.0,0.0,Western Pacific
+1591,Rwanda,2003,553150.0,2679.0,Africa
+1592,Sao Tome and Principe,2003,42656.0,193.0,Africa
+1593,Saudi Arabia,2003,1724.0,0.0,Eastern Mediterranean
+1594,Senegal,2003,26865.0,1602.0,Africa
+1595,Sierra Leone,2003,3945.0,157.0,Africa
+1596,Solomon Islands,2003,92227.0,71.0,Western Pacific
+1597,Somalia,2003,7571.0,54.0,Eastern Mediterranean
+1598,South Africa,2003,13459.0,142.0,Africa
+1599,South Sudan,2003,14792.0,30.0,Africa
+1600,Sri Lanka,2003,10510.0,4.0,South-East Asia
+1601,Sudan,2003,933267.0,2479.0,Eastern Mediterranean
+1602,Suriname,2003,10982.0,18.0,Americas
+1603,Syrian Arab Republic,2003,2.0,30.0,Eastern Mediterranean
+1604,Tajikistan,2003,5428.0,0.0,Europe
+1605,Thailand,2003,37355.0,204.0,South-East Asia
+1606,Timor-Leste,2003,33411.0,30.0,South-East Asia
+1607,Togo,2003,14792.0,1130.0,Africa
+1608,Turkey,2003,9222.0,0.0,Europe
+1609,Turkmenistan,2003,7.0,0.0,Europe
+1610,Uganda,2003,801784.0,30.0,Africa
+1611,United Arab Emirates,2003,14792.0,30.0,Eastern Mediterranean
+1612,United Republic of Tanzania,2003,1976614.0,15251.0,Africa
+1613,Uzbekistan,2003,74.0,0.0,Europe
+1614,Vanuatu,2003,15240.0,14.0,Western Pacific
+1615,Venezuela (Bolivarian Republic of),2003,31719.0,40.0,Americas
+1616,Viet Nam,2003,38790.0,50.0,Western Pacific
+1617,Yemen,2003,50811.0,30.0,Eastern Mediterranean
+1618,Zambia,2003,14792.0,9178.0,Africa
+1619,Zimbabwe,2003,14792.0,1044.0,Africa
+1620,Afghanistan,2002,415356.0,30.0,Eastern Mediterranean
+1621,Algeria,2002,307.0,30.0,Africa
+1622,Angola,2002,14792.0,14434.0,Africa
+1623,Argentina,2002,125.0,0.0,Americas
+1624,Armenia,2002,52.0,0.0,Europe
+1625,Azerbaijan,2002,506.0,0.0,Europe
+1626,Bangladesh,2002,62269.0,598.0,South-East Asia
+1627,Belize,2002,1134.0,0.0,Americas
+1628,Benin,2002,14792.0,707.0,Africa
+1629,Bhutan,2002,6511.0,11.0,South-East Asia
+1630,Bolivia (Plurinational State of),2002,14276.0,4.0,Americas
+1631,Botswana,2002,1640.0,23.0,Africa
+1632,Brazil,2002,348259.0,95.0,Americas
+1633,Burkina Faso,2002,14792.0,4032.0,Africa
+1634,Burundi,2002,327138.0,483.0,Africa
+1635,Cabo Verde,2002,76.0,2.0,Africa
+1636,Cambodia,2002,46902.0,457.0,Western Pacific
+1637,Cameroon,2002,14792.0,30.0,Africa
+1638,Central African Republic,2002,43093.0,30.0,Africa
+1639,Chad,2002,43933.0,98.0,Africa
+1640,China,2002,25520.0,42.0,Western Pacific
+1641,Colombia,2002,204916.0,162.0,Americas
+1642,Comoros,2002,1104310.0,30.0,Africa
+1643,Congo,2002,7677.0,30.0,Americas
+1644,Costa Rica,2002,1021.0,0.0,Americas
+1645,Côte d'Ivoire,2002,7628.0,30.0,Africa
+1646,Democratic People's Republic of Korea,2002,16578.0,30.0,Western Pacific
+1647,Democratic Republic of the Congo,2002,1735.0,2152.0,Africa
+1648,Djibouti,2002,14792.0,30.0,Eastern Mediterranean
+1649,Dominican Republic,2002,1296.0,11.0,Americas
+1650,Ecuador,2002,86757.0,64.0,Americas
+1651,Egypt,2002,0.0,30.0,Eastern Mediterranean
+1652,El Salvador,2002,117.0,0.0,Americas
+1653,Equatorial Guinea,2002,14792.0,30.0,Africa
+1654,Eritrea,2002,6078.0,86.0,Africa
+1655,Eswatini,2002,670.0,46.0,Africa
+1656,Ethiopia,2002,427795.0,1607.0,Africa
+1657,Gabon,2002,62976.0,1141.0,Africa
+1658,Gambia,2002,14792.0,259.0,Africa
+1659,Georgia,2002,474.0,0.0,Europe
+1660,Ghana,2002,14792.0,2376.0,Africa
+1661,Guatemala,2002,35540.0,0.0,Americas
+1662,Guinea,2002,16561.0,440.0,Africa
+1663,Guinea-Bissau,2002,14792.0,780.0,Africa
+1664,Guyana,2002,21895.0,28.0,Americas
+1665,Haiti,2002,14792.0,77.0,Americas
+1666,Honduras,2002,17223.0,0.0,Americas
+1667,India,2002,1841227.0,973.0,South-East Asia
+1668,Indonesia,2002,273793.0,30.0,South-East Asia
+1669,Iran (Islamic Republic of),2002,15558.0,2.0,Eastern Mediterranean
+1670,Iraq,2002,952.0,30.0,Eastern Mediterranean
+1671,Kazakhstan,2002,14792.0,30.0,Europe
+1672,Kenya,2002,20049.0,47697.0,Africa
+1673,Kyrgyzstan,2002,2743.0,0.0,Europe
+1674,Lao People's Democratic Republic,2002,21420.0,195.0,Western Pacific
+1675,Liberia,2002,14792.0,30.0,Africa
+1676,Madagascar,2002,5272.0,575.0,Africa
+1677,Malawi,2002,14792.0,5775.0,Africa
+1678,Malaysia,2002,11019.0,38.0,Western Pacific
+1679,Mali,2002,14792.0,826.0,Africa
+1680,Mauritania,2002,14792.0,30.0,Africa
+1681,Mauritius,2002,14792.0,30.0,Africa
+1682,Mexico,2002,4624.0,0.0,Americas
+1683,Morocco,2002,19.0,30.0,Eastern Mediterranean
+1684,Mozambique,2002,14792.0,30.0,Africa
+1685,Myanmar,2002,173096.0,2634.0,South-East Asia
+1686,Namibia,2002,23984.0,1504.0,Africa
+1687,Nepal,2002,12750.0,3.0,South-East Asia
+1688,Nicaragua,2002,7695.0,8.0,Americas
+1689,Niger,2002,14792.0,2769.0,Africa
+1690,Nigeria,2002,14792.0,4092.0,Africa
+1691,Oman,2002,6.0,30.0,Eastern Mediterranean
+1692,Pakistan,2002,107666.0,30.0,Eastern Mediterranean
+1693,Panama,2002,2244.0,2.0,Americas
+1694,Papua New Guinea,2002,75748.0,647.0,Western Pacific
+1695,Paraguay,2002,2778.0,0.0,Americas
+1696,Peru,2002,99237.0,12.0,Americas
+1697,Philippines,2002,37005.0,71.0,Western Pacific
+1698,Republic of Korea,2002,1799.0,0.0,Western Pacific
+1699,Rwanda,2002,506028.0,3167.0,Africa
+1700,Sao Tome and Principe,2002,50586.0,321.0,Africa
+1701,Saudi Arabia,2002,2612.0,0.0,Eastern Mediterranean
+1702,Senegal,2002,14425.0,1226.0,Africa
+1703,Sierra Leone,2002,3702.0,461.0,Africa
+1704,Solomon Islands,2002,74936.0,61.0,Western Pacific
+1705,Somalia,2002,15732.0,8.0,Eastern Mediterranean
+1706,South Africa,2002,15649.0,96.0,Africa
+1707,South Sudan,2002,14792.0,30.0,Africa
+1708,Sri Lanka,2002,41411.0,30.0,South-East Asia
+1709,Sudan,2002,280550.0,2125.0,Eastern Mediterranean
+1710,Suriname,2002,12837.0,15.0,Americas
+1711,Syrian Arab Republic,2002,15.0,30.0,Eastern Mediterranean
+1712,Tajikistan,2002,6160.0,0.0,Europe
+1713,Thailand,2002,44555.0,361.0,South-East Asia
+1714,Timor-Leste,2002,26651.0,30.0,South-East Asia
+1715,Togo,2002,14792.0,1661.0,Africa
+1716,Turkey,2002,10224.0,0.0,Europe
+1717,Turkmenistan,2002,18.0,0.0,Europe
+1718,Uganda,2002,557159.0,30.0,Africa
+1719,United Arab Emirates,2002,14792.0,30.0,Eastern Mediterranean
+1720,United Republic of Tanzania,2002,42468.0,815.0,Africa
+1721,Uzbekistan,2002,74.0,0.0,Europe
+1722,Vanuatu,2002,14339.0,13.0,Western Pacific
+1723,Venezuela (Bolivarian Republic of),2002,29491.0,23.0,Americas
+1724,Viet Nam,2002,47807.0,50.0,Western Pacific
+1725,Yemen,2002,75508.0,30.0,Eastern Mediterranean
+1726,Zambia,2002,14792.0,9021.0,Africa
+1727,Zimbabwe,2002,14792.0,1844.0,Africa
+1728,Afghanistan,2001,50850.0,30.0,Eastern Mediterranean
+1729,Algeria,2001,435.0,1.0,Africa
+1730,Angola,2001,14792.0,9473.0,Africa
+1731,Argentina,2001,215.0,0.0,Americas
+1732,Armenia,2001,79.0,0.0,Europe
+1733,Azerbaijan,2001,1058.0,0.0,Europe
+1734,Bangladesh,2001,54216.0,470.0,South-East Asia
+1735,Belize,2001,1162.0,0.0,Americas
+1736,Benin,2001,14792.0,468.0,Africa
+1737,Bhutan,2001,5982.0,14.0,South-East Asia
+1738,Bolivia (Plurinational State of),2001,15765.0,0.0,Americas
+1739,Botswana,2001,3720.0,29.0,Africa
+1740,Brazil,2001,388303.0,142.0,Americas
+1741,Burkina Faso,2001,14792.0,4233.0,Africa
+1742,Burundi,2001,312015.0,417.0,Africa
+1743,Cabo Verde,2001,107.0,0.0,Africa
+1744,Cambodia,2001,53601.0,476.0,Western Pacific
+1745,Cameroon,2001,14792.0,30.0,Africa
+1746,Central African Republic,2001,39164.0,535.0,Africa
+1747,Chad,2001,38287.0,957.0,Africa
+1748,China,2001,21237.0,27.0,Western Pacific
+1749,Colombia,2001,231233.0,168.0,Americas
+1750,Comoros,2001,879032.0,30.0,Africa
+1751,Congo,2001,11981.0,30.0,Americas
+1752,Costa Rica,2001,1363.0,0.0,Americas
+1753,Côte d'Ivoire,2001,11936.0,30.0,Africa
+1754,Democratic People's Republic of Korea,2001,143674.0,30.0,Western Pacific
+1755,Democratic Republic of the Congo,2001,1531.0,416.0,Africa
+1756,Djibouti,2001,14792.0,30.0,Eastern Mediterranean
+1757,Dominican Republic,2001,1038.0,17.0,Americas
+1758,Ecuador,2001,108903.0,84.0,Americas
+1759,Egypt,2001,0.0,30.0,Eastern Mediterranean
+1760,El Salvador,2001,362.0,0.0,Americas
+1761,Equatorial Guinea,2001,14792.0,30.0,Africa
+1762,Eritrea,2001,9716.0,133.0,Africa
+1763,Eswatini,2001,1395.0,62.0,Africa
+1764,Ethiopia,2001,392377.0,1681.0,Africa
+1765,Gabon,2001,53167.0,1693.0,Africa
+1766,Gambia,2001,14792.0,275.0,Africa
+1767,Georgia,2001,438.0,0.0,Europe
+1768,Ghana,2001,14792.0,1717.0,Africa
+1769,Guatemala,2001,35824.0,0.0,Americas
+1770,Guinea,2001,6238.0,517.0,Africa
+1771,Guinea-Bissau,2001,14792.0,635.0,Africa
+1772,Guyana,2001,27122.0,30.0,Americas
+1773,Haiti,2001,9837.0,70.0,Americas
+1774,Honduras,2001,24149.0,0.0,Americas
+1775,India,2001,2085484.0,1015.0,South-East Asia
+1776,Indonesia,2001,267592.0,30.0,South-East Asia
+1777,Iran (Islamic Republic of),2001,19303.0,2.0,Eastern Mediterranean
+1778,Iraq,2001,1265.0,30.0,Eastern Mediterranean
+1779,Kazakhstan,2001,14792.0,30.0,Europe
+1780,Kenya,2001,14792.0,48286.0,Africa
+1781,Kyrgyzstan,2001,28.0,0.0,Europe
+1782,Lao People's Democratic Republic,2001,27076.0,242.0,Western Pacific
+1783,Liberia,2001,14792.0,30.0,Africa
+1784,Madagascar,2001,8538.0,742.0,Africa
+1785,Malawi,2001,14792.0,3355.0,Africa
+1786,Malaysia,2001,12780.0,46.0,Western Pacific
+1787,Mali,2001,14792.0,562.0,Africa
+1788,Mauritania,2001,14792.0,30.0,Africa
+1789,Mauritius,2001,14792.0,30.0,Africa
+1790,Mexico,2001,4996.0,0.0,Americas
+1791,Morocco,2001,0.0,30.0,Eastern Mediterranean
+1792,Mozambique,2001,14792.0,30.0,Africa
+1793,Myanmar,2001,170502.0,2814.0,South-East Asia
+1794,Namibia,2001,41636.0,1728.0,Africa
+1795,Nepal,2001,6396.0,1.0,South-East Asia
+1796,Nicaragua,2001,10482.0,2.0,Americas
+1797,Niger,2001,14792.0,2366.0,Africa
+1798,Nigeria,2001,14792.0,4317.0,Africa
+1799,Oman,2001,2.0,30.0,Eastern Mediterranean
+1800,Pakistan,2001,125292.0,30.0,Eastern Mediterranean
+1801,Panama,2001,928.0,1.0,Americas
+1802,Papua New Guinea,2001,94484.0,562.0,Western Pacific
+1803,Paraguay,2001,2710.0,0.0,Americas
+1804,Peru,2001,78544.0,25.0,Americas
+1805,Philippines,2001,34787.0,439.0,Western Pacific
+1806,Republic of Korea,2001,2556.0,0.0,Western Pacific
+1807,Rwanda,2001,423493.0,4275.0,Africa
+1808,Sao Tome and Principe,2001,42086.0,248.0,Africa
+1809,Saudi Arabia,2001,3074.0,0.0,Eastern Mediterranean
+1810,Senegal,2001,12920.0,1515.0,Africa
+1811,Sierra Leone,2001,2206.0,328.0,Africa
+1812,Solomon Islands,2001,76493.0,55.0,Western Pacific
+1813,Somalia,2001,14792.0,30.0,Eastern Mediterranean
+1814,South Africa,2001,26506.0,81.0,Africa
+1815,South Sudan,2001,14792.0,30.0,Africa
+1816,Sri Lanka,2001,66522.0,52.0,South-East Asia
+1817,Sudan,2001,203491.0,2252.0,Eastern Mediterranean
+1818,Suriname,2001,16003.0,23.0,Americas
+1819,Syrian Arab Republic,2001,63.0,30.0,Eastern Mediterranean
+1820,Tajikistan,2001,11387.0,0.0,Europe
+1821,Thailand,2001,63528.0,424.0,South-East Asia
+1822,Timor-Leste,2001,14792.0,30.0,South-East Asia
+1823,Togo,2001,14792.0,1394.0,Africa
+1824,Turkey,2001,10812.0,0.0,Europe
+1825,Turkmenistan,2001,8.0,0.0,Europe
+1826,Uganda,2001,14792.0,30.0,Africa
+1827,United Arab Emirates,2001,14792.0,30.0,Eastern Mediterranean
+1828,United Republic of Tanzania,2001,38537.0,1228.0,Africa
+1829,Uzbekistan,2001,77.0,0.0,Europe
+1830,Vanuatu,2001,7647.0,4.0,Western Pacific
+1831,Venezuela (Bolivarian Republic of),2001,20006.0,28.0,Americas
+1832,Viet Nam,2001,68699.0,91.0,Western Pacific
+1833,Yemen,2001,14792.0,30.0,Eastern Mediterranean
+1834,Zambia,2001,14792.0,9369.0,Africa
+1835,Zimbabwe,2001,14792.0,30.0,Africa
+1836,Afghanistan,2000,94475.0,30.0,Eastern Mediterranean
+1837,Algeria,2000,541.0,2.0,Africa
+1838,Angola,2000,14792.0,9510.0,Africa
+1839,Argentina,2000,440.0,0.0,Americas
+1840,Armenia,2000,141.0,0.0,Europe
+1841,Azerbaijan,2000,1526.0,0.0,Europe
+1842,Bangladesh,2000,55599.0,484.0,South-East Asia
+1843,Belize,2000,1486.0,0.0,Americas
+1844,Benin,2000,14792.0,30.0,Africa
+1845,Bhutan,2000,5935.0,15.0,South-East Asia
+1846,Bolivia (Plurinational State of),2000,31469.0,11.0,Americas
+1847,Botswana,2000,10510.0,30.0,Africa
+1848,Brazil,2000,613241.0,245.0,Americas
+1849,Burkina Faso,2000,14792.0,30.0,Africa
+1850,Burundi,2000,308095.0,691.0,Africa
+1851,Cabo Verde,2000,144.0,30.0,Africa
+1852,Cambodia,2000,62442.0,608.0,Western Pacific
+1853,Cameroon,2000,14792.0,30.0,Africa
+1854,Central African Republic,2000,33411.0,439.0,Africa
+1855,Chad,2000,40078.0,712.0,Africa
+1856,China,2000,8025.0,31.0,Western Pacific
+1857,Colombia,2000,144432.0,124.0,Americas
+1858,Comoros,2000,801784.0,30.0,Africa
+1859,Congo,2000,15751.0,30.0,Americas
+1860,Costa Rica,2000,1879.0,0.0,Americas
+1861,Côte d'Ivoire,2000,15705.0,30.0,Africa
+1862,Democratic People's Republic of Korea,2000,90582.0,30.0,Western Pacific
+1863,Democratic Republic of the Congo,2000,897.0,3856.0,Africa
+1864,Djibouti,2000,14792.0,30.0,Eastern Mediterranean
+1865,Dominican Republic,2000,1233.0,6.0,Americas
+1866,Ecuador,2000,104528.0,66.0,Americas
+1867,Egypt,2000,0.0,30.0,Eastern Mediterranean
+1868,El Salvador,2000,753.0,0.0,Americas
+1869,Equatorial Guinea,2000,14792.0,30.0,Africa
+1870,Eritrea,2000,14792.0,30.0,Africa
+1871,Eswatini,2000,14792.0,30.0,Africa
+1872,Ethiopia,2000,14792.0,30.0,Africa
+1873,Gabon,2000,50810.0,2016.0,Africa
+1874,Gambia,2000,14792.0,30.0,Africa
+1875,Georgia,2000,245.0,0.0,Europe
+1876,Ghana,2000,14792.0,6108.0,Africa
+1877,Guatemala,2000,53311.0,0.0,Americas
+1878,Guinea,2000,4800.0,626.0,Africa
+1879,Guinea-Bissau,2000,14792.0,30.0,Africa
+1880,Guyana,2000,24018.0,29.0,Americas
+1881,Haiti,2000,16897.0,16.0,Americas
+1882,Honduras,2000,35125.0,0.0,Americas
+1883,India,2000,2031790.0,892.0,South-East Asia
+1884,Indonesia,2000,245612.0,833.0,South-East Asia
+1885,Iran (Islamic Republic of),2000,19716.0,4.0,Eastern Mediterranean
+1886,Iraq,2000,1860.0,30.0,Eastern Mediterranean
+1887,Kazakhstan,2000,14792.0,30.0,Europe
+1888,Kenya,2000,14792.0,48767.0,Africa
+1889,Kyrgyzstan,2000,12.0,0.0,Europe
+1890,Lao People's Democratic Republic,2000,40106.0,350.0,Western Pacific
+1891,Liberia,2000,14792.0,30.0,Africa
+1892,Madagascar,2000,6946.0,591.0,Africa
+1893,Malawi,2000,14792.0,30.0,Africa
+1894,Malaysia,2000,12705.0,35.0,Western Pacific
+1895,Mali,2000,14792.0,748.0,Africa
+1896,Mauritania,2000,14792.0,30.0,Africa
+1897,Mauritius,2000,14792.0,30.0,Africa
+1898,Mexico,2000,7390.0,0.0,Americas
+1899,Morocco,2000,3.0,30.0,Eastern Mediterranean
+1900,Mozambique,2000,14792.0,30.0,Africa
+1901,Myanmar,2000,120083.0,2556.0,South-East Asia
+1902,Namibia,2000,14792.0,30.0,Africa
+1903,Nepal,2000,7981.0,30.0,South-East Asia
+1904,Nicaragua,2000,23878.0,4.0,Americas
+1905,Niger,2000,14792.0,1244.0,Africa
+1906,Nigeria,2000,14792.0,30.0,Africa
+1907,Oman,2000,6.0,30.0,Eastern Mediterranean
+1908,Pakistan,2000,82526.0,30.0,Eastern Mediterranean
+1909,Panama,2000,1036.0,1.0,Americas
+1910,Papua New Guinea,2000,79839.0,617.0,Western Pacific
+1911,Paraguay,2000,6853.0,0.0,Americas
+1912,Peru,2000,68321.0,20.0,Americas
+1913,Philippines,2000,36596.0,536.0,Western Pacific
+1914,Republic of Korea,2000,4183.0,0.0,Western Pacific
+1915,Rwanda,2000,14792.0,30.0,Africa
+1916,Sao Tome and Principe,2000,31975.0,254.0,Africa
+1917,Saudi Arabia,2000,6608.0,30.0,Eastern Mediterranean
+1918,Senegal,2000,44959.0,1275.0,Africa
+1919,Sierra Leone,2000,14792.0,30.0,Africa
+1920,Solomon Islands,2000,68107.0,38.0,Western Pacific
+1921,Somalia,2000,14792.0,30.0,Eastern Mediterranean
+1922,South Africa,2000,14792.0,424.0,Africa
+1923,South Sudan,2000,14792.0,30.0,Africa
+1924,Sri Lanka,2000,210039.0,77.0,South-East Asia
+1925,Sudan,2000,368557.0,2162.0,Eastern Mediterranean
+1926,Suriname,2000,11361.0,24.0,Americas
+1927,Syrian Arab Republic,2000,6.0,30.0,Eastern Mediterranean
+1928,Tajikistan,2000,19064.0,0.0,Europe
+1929,Thailand,2000,78561.0,625.0,South-East Asia
+1930,Timor-Leste,2000,15212.0,30.0,South-East Asia
+1931,Togo,2000,14792.0,30.0,Africa
+1932,Turkey,2000,11432.0,0.0,Europe
+1933,Turkmenistan,2000,24.0,0.0,Europe
+1934,Uganda,2000,14792.0,30.0,Africa
+1935,United Arab Emirates,2000,14792.0,30.0,Eastern Mediterranean
+1936,United Republic of Tanzania,2000,17734.0,379.0,Africa
+1937,Uzbekistan,2000,126.0,0.0,Europe
+1938,Vanuatu,2000,6768.0,3.0,Western Pacific
+1939,Venezuela (Bolivarian Republic of),2000,29736.0,24.0,Americas
+1940,Viet Nam,2000,74316.0,142.0,Western Pacific
+1941,Yemen,2000,1394495.0,30.0,Eastern Mediterranean
+1942,Zambia,2000,14792.0,30.0,Africa
+1943,Zimbabwe,2000,14792.0,30.0,Africa
