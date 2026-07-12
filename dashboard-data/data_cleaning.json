@@ -1,0 +1,54 @@
+{
+  "source_notebook": "pages/data_cleaning.ipynb",
+  "input": "pages/reported_numbers.csv",
+  "columns": [
+    "Country",
+    "Year",
+    "No. of cases",
+    "No. of deaths",
+    "WHO Region"
+  ],
+  "ranges": {
+    "max_country_alpha": "Zimbabwe",
+    "max_year": 2017,
+    "max_cases": 15330841.0,
+    "max_deaths": 51842.0,
+    "max_deaths_region": "Western Pacific"
+  },
+  "cleaning": {
+    "missing_value_fill": "column median",
+    "median_deaths": 30.0,
+    "nulls_after_fill": {
+      "Country": 0,
+      "Year": 0,
+      "No. of cases": 0,
+      "No. of deaths": 0,
+      "WHO Region": 0
+    }
+  },
+  "who_regions": [
+    "Eastern Mediterranean",
+    "Africa",
+    "Americas",
+    "Europe",
+    "South-East Asia",
+    "Western Pacific"
+  ],
+  "south_east_asia_subset": {
+    "n_rows": 162,
+    "n_cols": 3,
+    "year_range": [
+      2000,
+      2017
+    ],
+    "columns": [
+      "Country",
+      "Year",
+      "No. of cases"
+    ]
+  },
+  "outputs": [
+    "data.csv",
+    "pages/exported_data.csv"
+  ]
+}
