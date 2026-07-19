@@ -1,0 +1,25 @@
+{
+  "source_notebook": "notebooka4911bf708.ipynb",
+  "dataset": {
+    "name": "Kaggle cell images for detecting malaria",
+    "class_loaded": "Parasitized",
+    "n_images_loaded": 100,
+    "resize": [
+      300,
+      200
+    ],
+    "note": "Data not in this repo (Kaggle input path); notebook does not re-run from the repo alone."
+  },
+  "pipeline": [
+    "contrast adjustment (alpha=1.5, beta=10)",
+    "gaussian blur + binary threshold cleanup",
+    "HSV-space morphological noise removal",
+    "contour finding + moments on saturation channel"
+  ],
+  "result_single_cell": {
+    "image": "data[0][5]",
+    "n_contours": 3,
+    "area_ratio_pct": 1.7710270065862035,
+    "note": "area of smaller contours as % of the largest contour"
+  }
+}
