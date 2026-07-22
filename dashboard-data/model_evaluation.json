@@ -1,0 +1,83 @@
+{
+  "source_notebook": "web/analysis.ipynb",
+  "dataset": {
+    "name": "NIH malaria cell image set (Rajaraman et al., 2018)",
+    "n_images": 27558,
+    "classes": {
+      "parasitized": 13779,
+      "uninfected": 13779
+    },
+    "note": "Repo records no train/test split; evaluated on the full set, so read as an upper bound on held-out performance."
+  },
+  "models": {
+    "my_model": {
+      "accuracy": 0.9319,
+      "accuracy_ci95": [
+        0.9288,
+        0.9348
+      ],
+      "auc": 0.9577,
+      "sensitivity": 0.9292,
+      "specificity": 0.9345,
+      "preprocess": "rgb, scaled to [0,1]",
+      "winner": true
+    },
+    "malaria_cnn": {
+      "accuracy": 0.5934,
+      "accuracy_ci95": [
+        0.5879,
+        0.5991
+      ],
+      "auc": 0.78,
+      "sensitivity": 0.9917,
+      "specificity": 0.1952,
+      "preprocess": "rgb, raw 0-255",
+      "note": "0.5 threshold badly placed (sensitivity 0.99, specificity 0.20)"
+    }
+  },
+  "bootstrap": {
+    "method": "percentile bootstrap (Efron and Tibshirani, 1993)",
+    "resamples": 2000
+  },
+  "calibration": {
+    "ece_my_model": 0.1032,
+    "bins": 15,
+    "note": "Curve sits above the diagonal mid-range: cells scored 0.4-0.7 are infected more often than claimed (under-confident)."
+  },
+  "test_time_augmentation": {
+    "n_cells": 2000,
+    "views_per_cell": 8,
+    "mean_sd_p_infected": 0.055,
+    "mean_ci95_width": 0.1765,
+    "mean_width_correct": 0.175,
+    "mean_width_wrong": 0.2013
+  },
+  "error_analysis": {
+    "n_errors": 1877,
+    "note": "No life-cycle stage labels; compared on image properties.",
+    "brightness": {
+      "errors_mean": 0.446,
+      "errors_sd": 0.05,
+      "correct_mean": 0.47,
+      "correct_sd": 0.047
+    },
+    "contrast": {
+      "errors_mean": 0.292,
+      "errors_sd": 0.025,
+      "correct_mean": 0.29,
+      "correct_sd": 0.022
+    },
+    "saturation": {
+      "errors_mean": 0.2,
+      "errors_sd": 0.085,
+      "correct_mean": 0.173,
+      "correct_sd": 0.079
+    },
+    "redness": {
+      "errors_mean": 0.291,
+      "errors_sd": 0.038,
+      "correct_mean": 0.292,
+      "correct_sd": 0.034
+    }
+  }
+}
