@@ -13,9 +13,12 @@ def code(src):
 
 md("""# Malaria cell CNNs: which one works, and how sure is it?
 
+## Background
+
 I took the two CNNs from the original class project and evaluated them on the
-public NIH malaria cell set (27,558 cell photos, half parasitized). The repo
-records no train/test split, so everything below is computed on the full public
+public NIH malaria cell set (27,558 cell photos, half parasitized). ## Setup
+
+The repo records no train/test split, so everything below is computed on the full public
 set. Read those numbers as an upper bound on held-out performance.
 
 One sentence per method on why it is the right tool lives next to each step.""")
@@ -28,7 +31,7 @@ m = json.load(open("metrics.json"))
 err = json.load(open("error_report.json"))
 print("files loaded: metrics.json, error_report.json")""")
 
-md("""## 1. Pick the winner by measured accuracy
+md("""## Method: pick the winner by measured accuracy
 
 The classes are balanced (13,779 each), so accuracy is not misleading here.
 I also recovered the preprocessing each model needs: the repo's inference script
@@ -47,7 +50,7 @@ for name, acc, aci, auc, uci, se, sp, pp in rows:
 print()
 print("Winner: my_model. malaria_cnn's 0.5 threshold is badly placed (sensitivity 0.99, specificity 0.20).")""")
 
-md("""## 2. Confusion matrix with bootstrap confidence intervals
+md("""## Results: confusion matrix with bootstrap confidence intervals
 
 Why bootstrap: accuracy-style metrics have no trustworthy closed-form standard
 error, and the percentile bootstrap (Efron and Tibshirani, 1993) makes no
@@ -57,7 +60,7 @@ code("""display(Image.open("figures/confusion_my_model.png"))
 display(Image.open("figures/confusion_malaria_cnn.png"))
 display(Image.open("figures/roc_both.png"))""")
 
-md("""## 3. Calibration: does 0.9 mean 90%?
+md("""## Method: calibration, does 0.9 mean 90%?
 
 Why ECE: a screening tool's stated confidence must mean something in the long
 run. Expected calibration error over 15 equal-width bins (Guo et al., 2017)
@@ -68,7 +71,7 @@ display(Image.open("figures/calibration_winner.png"))
 print("The curve sits above the diagonal in the middle: cells scored 0.4-0.7 are")
 print("infected more often than claimed. Under-confident, the safer direction.")""")
 
-md("""## 4. Test-time augmentation uncertainty
+md("""## Method: test-time augmentation uncertainty
 
 Why TTA: showing each cell to the model in 8 geometric views (4 rotations, with
 and without horizontal flip) estimates input-dependent uncertainty without
@@ -83,7 +86,7 @@ print(f"  correctly classified              : {t['mean_width_correct']:.4f}")
 print(f"  misclassified                     : {t['mean_width_wrong']:.4f}")
 display(Image.open("figures/tta_spread.png"))""")
 
-md("""## 5. Error analysis
+md("""## Results: error analysis
 
 No life-cycle stage labels exist in this data (file names carry only a cell
 ID), so stage-by-stage analysis is impossible. Instead I compared misclassified
@@ -97,7 +100,7 @@ print(f"\\nn_errors = {err['n_errors']}")
 display(Image.open("figures/errors_false_negatives.png"))
 display(Image.open("figures/errors_false_positives.png"))""")
 
-md("""## Bottom line
+md("""## Takeaway
 
 `my_model` reaches 93.2% accuracy (95% CI 0.929-0.935) on the full NIH set,
 next to the published 92.7% for a small custom CNN. It is slightly
