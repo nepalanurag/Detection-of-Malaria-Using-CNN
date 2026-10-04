@@ -162,7 +162,7 @@ if submit:
                 st.write("Model predicts that there is one parasite in the blood sample")
                 ratio=cv2.contourArea(conts[1])/cv2.contourArea(conts[0])*100
                 st.write("The area of the blood sample is ",cv2.contourArea(conts[0]))
-                st.write("The aree of parasite is ",cv2.contourArea(conts[1]))
+                st.write("The area of parasite is ",cv2.contourArea(conts[1]))
             elif (len(cents)>2):
                 area=0
                 for i in range(len(cents)):

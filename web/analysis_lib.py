@@ -81,8 +81,12 @@ def batch_predict(model, items, size, order, scale, batch=1024, verbose=False):
             print(f"  {s}/{n}", flush=True)
     probs = np.concatenate(probs, axis=0)
     labels = np.array(labels, dtype=int)
-    # column check on a small sample: parasitized column must correlate with labels
-    col1_corr = np.corrcoef(probs[:2000, 1], labels[:2000])[0, 1]
+    # column check on a sample that includes both classes: the first 2000
+    # items can be all one class when items are class-ordered, which makes
+    # the correlation nan, so use a strided sample across the whole list
+    k = min(2000, n)
+    sel = np.arange(0, n, max(1, n // k))[:k]
+    col1_corr = np.corrcoef(probs[sel, 1], labels[sel])[0, 1]
     pcol = 1 if col1_corr > 0 else 0
     return probs[:, pcol].astype(np.float64), labels, pcol
 
