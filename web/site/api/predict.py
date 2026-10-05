@@ -149,6 +149,7 @@ class handler(BaseHTTPRequestHandler):
                 "ci_low": round(lo, 4),
                 "ci_high": round(hi, 4),
                 "n_augmentations": n,
+                "view_probabilities": [round(p, 4) for p in probs],
                 "model": "malaria-cnn 93.2%",
             },
         )
