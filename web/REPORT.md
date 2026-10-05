@@ -110,6 +110,22 @@ figures show the worst false negatives and false positives. No life-cycle stage
 labels exist in this data, so this morphology comparison is as far as honest
 error analysis can go.
 
+## Future work
+
+- **Retrain from scratch with a recorded split.** Both shipped weights were
+  trained on roughly 27,000 of the 27,558 NIH images with no recorded
+  train/test split, so every number above is an in-sample upper bound. The
+  next model should train on a fixed, seeded, recorded split (e.g. 80/10/10
+  train/val/test) and be reported only on the held-out test portion.
+- **Architecture comparison.** Benchmark the small custom CNN against a
+  transfer-learning baseline (ResNet50, as in Rajaraman et al.) on that clean
+  split, reusing the bootstrap CIs, calibration check, and TTA uncertainty
+  from this report so the comparison is apples to apples.
+- **Cloud deployment.** Serve the new model from a real inference API
+  (GCP Cloud Run) instead of in-browser ONNX only, keeping the 8-view TTA
+  interval with every prediction. The current demo and its models stay as
+  the baseline to beat.
+
 ## References
 
 - Rajaraman, S., Antani, S. K., Poostchi, M., Silamut, K., Hossain, M. A.,
