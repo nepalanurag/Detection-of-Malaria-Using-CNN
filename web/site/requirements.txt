@@ -1,0 +1,4 @@
+# Pinned dependencies for the /api/predict serverless function.
+onnxruntime==1.30.0
+numpy==2.5.3
+pillow==12.3.0

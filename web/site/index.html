@@ -51,6 +51,21 @@
   </section>
 
   <section class="panel">
+    <h2>Classify in the cloud</h2>
+    <p class="muted">Same model, same 8-view augmentation, run on a server instead of
+    your browser. Your image is sent to <code>/api/predict</code> and classified there.</p>
+    <div class="btnrow">
+      <input type="file" id="cloudfile" accept="image/*">
+      <button id="cloudbtn" type="button">Classify in the cloud</button>
+    </div>
+    <div id="cloudresult" hidden>
+      <div id="cloudverdict" class="verdict"></div>
+      <div id="cloudinterval" class="interval"></div>
+      <p class="muted small" id="clouderror" hidden></p>
+    </div>
+  </section>
+
+  <section class="panel">
     <h2>About malaria</h2>
     <p>Malaria is an acute febrile illness caused by Plasmodium parasites, which are spread
     to people through the bites of infected female Anopheles mosquitoes. There are 5 parasite

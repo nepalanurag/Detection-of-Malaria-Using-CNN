@@ -280,3 +280,67 @@ init();
     chart.getContext("2d").fillText("Could not load data.csv", 20, 40);
   });
 })();
+
+/* Cloud inference: POST a cell image to /api/predict and show the result.
+   Same model and same 8-view TTA as the in-browser flow, run server-side. */
+(function () {
+  var fi = document.getElementById("cloudfile");
+  var btn = document.getElementById("cloudbtn");
+  var box = document.getElementById("cloudresult");
+  var verdict = document.getElementById("cloudverdict");
+  var interval = document.getElementById("cloudinterval");
+  var err = document.getElementById("clouderror");
+  if (!fi || !btn) return;
+
+  function showError(msg) {
+    box.hidden = false;
+    verdict.textContent = "Cloud classification failed.";
+    verdict.className = "verdict";
+    interval.textContent = "";
+    err.hidden = false;
+    err.textContent = msg;
+  }
+
+  btn.addEventListener("click", function () {
+    var f = fi.files[0];
+    if (!f || f.type.indexOf("image/") !== 0) {
+      showError("Choose a JPG or PNG image first.");
+      return;
+    }
+    verdict.textContent = "Classifying in the cloud\u2026";
+    verdict.className = "verdict";
+    interval.textContent = "";
+    err.hidden = true;
+    box.hidden = false;
+    var reader = new FileReader();
+    reader.onload = function () {
+      fetch("/api/predict", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ image: reader.result })
+      }).then(function (res) {
+        return res.json().then(function (data) {
+          return { ok: res.ok, data: data };
+        });
+      }).then(function (r) {
+        if (!r.ok) {
+          showError(r.data && r.data.error ? r.data.error : "The server returned an error.");
+          return;
+        }
+        var infected = r.data.label === "infected";
+        verdict.textContent =
+          (infected ? "Infected" : "Uninfected") +
+          "  \u00b7  P(infected) = " + Number(r.data.probability).toFixed(3) +
+          "  \u00b7  classified in the cloud";
+        verdict.className = "verdict " + (infected ? "infected" : "uninfected");
+        interval.textContent =
+          "95% interval [" + Number(r.data.ci_low).toFixed(3) + ", " +
+          Number(r.data.ci_high).toFixed(3) + "]  (" +
+          r.data.n_augmentations + " views, " + r.data.model + ")";
+      }).catch(function () {
+        showError("Could not reach the cloud API. Check your connection and try again.");
+      });
+    };
+    reader.readAsDataURL(f);
+  });
+})();
