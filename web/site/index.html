@@ -129,10 +129,12 @@
 
   <section class="panel about">
     <h2>About this model</h2>
-    <p id="modelinfo">A compact CNN trained on the NIH malaria cell image dataset
-    (27,558 thin-blood-smear cell images, half parasitized, half uninfected).
-    <span id="modelmetrics">On the full 27,558-image NIH set it reaches 93.2% accuracy
-    (95% CI 92.9&ndash;93.5), sensitivity 92.9%, specificity 93.5%, AUC 0.958.
+    <p id="modelinfo">A compact CNN trained on about 27,000 NIH thin-blood-smear cell images
+    (half parasitized, half uninfected).
+    <span id="modelmetrics">It scores 93.2% accuracy
+    (95% CI 92.9&ndash;93.5), sensitivity 92.9%, specificity 93.5%, AUC 0.958
+    on those same images &mdash; the original train/test split was never recorded, so
+    treat these as an optimistic upper bound, not a held-out test score.
     Mean TTA spread across 8 views is &plusmn;0.055 in probability.</span> Full write-up,
     code, and figures:
     <a href="https://github.com/nepalanurag/Detection-of-Malaria-Using-CNN">github.com/nepalanurag/Detection-of-Malaria-Using-CNN</a>.</p>
