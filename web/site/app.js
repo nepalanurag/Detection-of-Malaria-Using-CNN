@@ -76,7 +76,53 @@ async function predictImage(img, trueLabel) {
   showResult(img, probs, mean, sd, lo, hi, trueLabel);
 }
 
-function showResult(img, probs, mean, sd, lo, hi, trueLabel) {
+function statsOf(probs) {
+  const mean = probs.reduce((a, b) => a + b, 0) / probs.length;
+  const sd = Math.sqrt(probs.reduce((a, b) => a + (b - mean) ** 2, 0) / (probs.length - 1));
+  return { mean, sd, lo: Math.max(0, mean - 1.96 * sd), hi: Math.min(1, mean + 1.96 * sd) };
+}
+
+// Sample cells are scored by the cloud API so the numbers always match the
+// reference values in samples/results.json. The browser's canvas resampling
+// differs very slightly from the reference pipeline, which is enough to flip
+// borderline cells (e.g. sample4). Falls back to the precomputed reference
+// numbers if the API is unreachable.
+async function predictSample(s) {
+  const img = new Image();
+  img.crossOrigin = "anonymous";
+  img.onerror = () => { $("verdict").textContent = "Could not load sample image: " + s.file; };
+  img.onload = async () => {
+    try {
+      const res = await fetch("samples/" + s.file);
+      if (!res.ok) throw new Error("sample fetch failed");
+      const blob = await res.blob();
+      const b64 = await new Promise((resolve, reject) => {
+        const fr = new FileReader();
+        fr.onload = () => resolve(String(fr.result).split(",")[1]);
+        fr.onerror = () => reject(new Error("read failed"));
+        fr.readAsDataURL(blob);
+      });
+      const pr = await fetch("/api/predict", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ image: b64 }),
+      });
+      if (!pr.ok) throw new Error("api status " + pr.status);
+      const r = await pr.json();
+      if (!Array.isArray(r.view_probabilities) || r.view_probabilities.length !== 8) {
+        throw new Error("bad api response");
+      }
+      const st = statsOf(r.view_probabilities);
+      showResult(img, r.view_probabilities, st.mean, st.sd, st.lo, st.hi, s.true_label, "cloud");
+    } catch (err) {
+      showResult(img, null, s.p_infected_mean, s.p_infected_sd,
+                 s.ci95[0], s.ci95[1], s.true_label, "reference");
+    }
+  };
+  img.src = "samples/" + s.file;
+}
+
+function showResult(img, probs, mean, sd, lo, hi, trueLabel, source) {
   $("result").hidden = false;
   const prev = $("preview").getContext("2d");
   prev.imageSmoothingEnabled = false;
@@ -93,8 +139,12 @@ function showResult(img, probs, mean, sd, lo, hi, trueLabel) {
   if (trueLabel) {
     const el = $("truename");
     el.hidden = false;
-    el.textContent = "True label of this sample cell: " + trueLabel +
-      ". Precomputed locally with the same model; your browser recomputes it live above.";
+    const srcNote = source === "cloud"
+      ? "Scored live by the cloud API with the same model and pipeline as the reference numbers."
+      : source === "reference"
+      ? "Reference values from the repo (the cloud API is unreachable right now)."
+      : "Precomputed locally with the same model; your browser recomputes it live above.";
+    el.textContent = "True label of this sample cell: " + trueLabel + ". " + srcNote;
   } else {
     $("truename").hidden = true;
   }
@@ -102,11 +152,17 @@ function showResult(img, probs, mean, sd, lo, hi, trueLabel) {
   tb.innerHTML = "";
   const names = ["0\u00b0", "90\u00b0", "180\u00b0", "270\u00b0",
                  "flip+0\u00b0", "flip+90\u00b0", "flip+180\u00b0", "flip+270\u00b0"];
-  probs.forEach((p, i) => {
+  if (probs) {
+    probs.forEach((p, i) => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = "<td>" + names[i] + "</td><td>" + p.toFixed(4) + "</td>";
+      tb.appendChild(tr);
+    });
+  } else {
     const tr = document.createElement("tr");
-    tr.innerHTML = "<td>" + names[i] + "</td><td>" + p.toFixed(4) + "</td>";
+    tr.innerHTML = "<td colspan=\"2\">Per-view values are not stored for the reference numbers.</td>";
     tb.appendChild(tr);
-  });
+  }
   $("result").scrollIntoView({ behavior: "smooth", block: "nearest" });
 }
 
@@ -129,17 +185,7 @@ async function loadSamples() {
   sampleResults.samples.forEach((s) => {
     const b = document.createElement("button");
     b.textContent = s.file.replace(".png", "") + " (" + s.true_label + ")";
-    b.onclick = () => {
-      const img = new Image();
-      img.crossOrigin = "anonymous";
-      img.onload = () => predictImage(img, s.true_label).catch((err) => {
-        $("verdict").textContent = "Prediction failed: " + (err && err.message ? err.message : err);
-      });
-      img.onerror = () => {
-        $("verdict").textContent = "Could not load sample image: " + s.file;
-      };
-      img.src = "samples/" + s.file;
-    };
+    b.onclick = () => predictSample(s);
     row.appendChild(b);
   });
 }
