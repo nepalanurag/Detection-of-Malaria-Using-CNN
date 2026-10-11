@@ -10,7 +10,7 @@ The full demo package (evaluation, model conversion, and the site source) lives 
 
 ## Background
 
-Malaria is a life-threatening disease caused by Plasmodium parasites, transmitted through the bites of infected mosquitoes. Early and accurate detection is crucial for effective treatment. Manual examination of blood smears is time-consuming and prone to human error. Deep learning, especially CNNs, has shown promise in automating image-based diagnosis tasks.
+Malaria is a life-threatening disease caused by Plasmodium parasites, transmitted through the bites of infected mosquitoes. Early and accurate detection is crucial for effective treatment. Manual examination of blood smears is time-consuming and prone to human error. Deep learning, especially CNNs, has shown promise in automating image-based diagnosis tasks. The demo classifies single cropped cell images (one step of real malaria diagnosis), and it is a research demo, not a medical device.
 
 ## Project Structure
 
@@ -18,7 +18,7 @@ Malaria is a life-threatening disease caused by Plasmodium parasites, transmitte
 - `malaria_cnn.h5`, `my_model.h5`: Pre-trained CNN model files.
 - `data.csv`, `incidence-of-malaria-sdgs.csv`: Datasets used for analysis and training.
 - `archive/`: Contains additional datasets and CSV files.
-- `pages/`: Contains scripts and notebooks for data cleaning, prediction, progression analysis, visualization, and exported data.
+- `pages/`: Contains scripts and notebooks for data cleaning, progression analysis, visualization, and exported data.
 - `notebooka4911bf708.ipynb`: Jupyter notebook for experiments and analysis.
 - `requirements.txt`, `Pipfile`: Python dependencies.
 - `reports.pdf`: Project report and documentation.
@@ -26,7 +26,7 @@ Malaria is a life-threatening disease caused by Plasmodium parasites, transmitte
 
 ## Dataset
 
-The primary dataset consists of cell images labeled as infected or uninfected. Additional CSV files provide malaria incidence statistics and related data. Data sources include the World Health Organization and open-access malaria datasets.
+The primary dataset consists of cell images labeled as infected or uninfected. Additional CSV files provide malaria incidence statistics and related data. Data sources include the World Health Organization and open-access malaria datasets. The evaluation in `web/` uses the public NIH malaria cell image set (Rajaraman et al., 2018): 27,558 segmented thin-blood-smear cell images, half parasitized and half uninfected, from the NLM mirror.
 
 ## How to Run
 
@@ -38,10 +38,13 @@ The primary dataset consists of cell images labeled as infected or uninfected. A
 
 2. **Run prediction or analysis:**
 
-   - Use scripts in the `pages/` directory, such as `Predict.py`, `Progression.py`, or `Visualization.py`.
-   - Example:
+   - **Prediction on your own images:** use the live demo above. It runs `my_model` (accuracy 0.932 on the NIH set) in the browser with a per-prediction uncertainty interval. The old Streamlit prediction page is retired (see `_retired/README.md`): it loaded `malaria_cnn`, the model the `web/` analysis rejected at accuracy 0.593 (near chance), and fed it raw 0-255 BGR pixels.
+   - **Legacy Streamlit app:** `streamlit run Welcome.py` (Progression and Visualization pages).
+   - **Reproduce the evaluation** (model comparison, bootstrap CIs, calibration, TTA uncertainty, error analysis):
      ```bash
-     python pages/Predict.py
+     cd web
+     python h5_to_onnx.py      # .h5 weights -> ONNX
+     python analyze.py --full  # full evaluation, figures, metrics.json
      ```
 
 3. **Jupyter Notebook:**
@@ -76,18 +79,17 @@ If your Markdown viewer does not support inline PDF viewing, you can download an
 
 ## Usage Examples
 
-**Predict malaria from an image:**
-
-```python
-from pages.Predict import predict_image
-result = predict_image('sample.png')
-print('Prediction:', result)
-```
-
-**Visualize malaria incidence:**
+**Evaluate both shipped models on the 27,558 NIH cell images:**
 
 ```bash
-python pages/Visualization.py
+cd web
+python analyze.py --full   # figures, metrics.json, error_report.json
+```
+
+**Malaria incidence visualizations:**
+
+```bash
+streamlit run Welcome.py   # then open the Visualization page
 ```
 
 ## Requirements
