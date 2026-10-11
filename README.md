@@ -1,6 +1,6 @@
 # Detection of Malaria Using CNN
 
-This project leverages Convolutional Neural Networks (CNN) to automate the detection of malaria parasites in blood smear images. The goal is to assist healthcare professionals in rapid and accurate diagnosis, reducing manual workload and improving detection rates. The repository includes data preprocessing, model training, evaluation, prediction functionalities, visualizations, and a comprehensive project report.
+This project uses Convolutional Neural Networks (CNN) to automate the detection of malaria parasites in blood smear images. The goal is to assist healthcare professionals in rapid and accurate diagnosis, reducing manual workload and improving detection rates. The repository includes data preprocessing, model training, evaluation, prediction functionalities, visualizations, and a comprehensive project report.
 
 ## Live demo
 
